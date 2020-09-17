@@ -21,6 +21,7 @@ body {
     padding: 30px;
     border-radius: 10px;
     box-shadow: 5px 5px 5px $primary-color-dark;
+    border: 1px solid $primary-color-dark;
 }
 
 .home-link-wrapper {
@@ -35,6 +36,7 @@ body {
         box-shadow: 2px 2px 2px $accent-color-dark;
         padding: 10px;
         margin-bottom: 10px;
+        border: 1px solid $accent-color-dark;
 
         &:hover {
             background: darken($accent-color-light, 5);
@@ -47,7 +49,7 @@ body {
                 text-decoration: none;
             }
 
-            h3 {
+            h3.game-name {
                 color: white;
             }
         }
@@ -59,6 +61,7 @@ body {
         box-shadow: 2px 2px 2px darken(#bbbbbb, 5);
         padding: 10px;
         margin-bottom: 10px;
+        border: 1px solid rgba(0,0,0,0.2);
 
         &:hover {
             cursor: not-allowed;
@@ -71,10 +74,104 @@ body {
                 text-decoration: none;
                 cursor: not-allowed;
             }
+        }
 
-            h3 {
-                color: #8c8c8c;
+        h3.game-name {
+            /*            color: #8c8c8c;*/
+            color: rgba(0,0,0,0.3);
+        }
+    }
+}
+
+/* REPLACING BOOKS STYLES*/
+.replacing-books-container {
+    width: 100%;
+    margin-top: 100px;
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px $primary-color-dark;
+    border: 1px solid $primary-color-dark;
+
+    .instructions{
+        font-size:1.2em;
+    }
+
+    .book-wrapper {
+        margin-bottom: 0;
+        display: flex;
+        justify-content: center;
+        list-style: none;
+        padding-left: 0;
+    }
+
+    $book-color: rgb(random(255), random(255), random(255));
+    .book {
+        $height: 500px;
+        height: $height;
+        /*width: calc(#{$height}/3.333);*/
+        display: flex;
+        flex-direction: row;
+        box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+        margin-right: 5px;
+        border-radius: 5px;
+        min-width: 0;
+
+        .cover {
+            flex-basis: 10%;
+            // border: 1px solid blue;
+            background-color: darken($book-color, 5);
+        }
+
+        .cover.left {
+            border-radius: 5px 0 0 5px;
+            border-right: 5px solid darken($book-color, 10);
+        }
+
+        .cover.right {
+            border-radius: 0 5px 5px 0;
+            border-left: 5px solid darken($book-color, 10);
+        }
+
+        .spine {
+            flex-basis: 80%;
+            background-color: $book-color;
+            display: flex;
+            flex-direction: column-reverse;
+
+            .sticker {
+                margin: 10px;
+                border-radius: 5px;
+                flex-basis: 75px;
+                background: white;
+                padding: 5px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+
+                span {
+                    display: block;
+                    text-align: center;
+                    font-size: 1.2em;
+                    user-select: none;
+                }
             }
+        }
+    }
+
+    .progress-bar-wrapper {
+        margin-top: 30px;
+        height: 40px;
+        width: 100%;
+        border: 1px solid rgba(0,0,0,0.2);
+        border-radius: 20px;
+        box-shadow: 0px 0px 5px $accent-color-light;
+
+        .custom-progress-bar {
+            width: 60%;
+            height: 100%;
+            background-color: $accent-color-dark;
+            border-radius: 20px;
         }
     }
 }
