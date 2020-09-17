@@ -3,26 +3,25 @@
     ViewData["Title"] = "ReplacingBooks";
 }
 
+<div class="back-button-wrapper">
+    <a href="/Home/Index" class="back-button"><i class="fa fa-chevron-left"></i> Back to Menu</a>
+</div>
 <div class="container replacing-books-container">
-    <h2>Replacing Books</h2>
-    <span class="instructions">Sort the books according to their call numbers. Complete it faster to get more points</span>
+    <div class="header-wrapper">
+        <div class="header-left">
+            <h2>Replacing Books</h2>
+            <span class="instructions">Sort the books according to their call numbers. Complete it faster to rank higher</span>
+        </div>
+        <div class="header-right">
+            <div class="timer-wrapper">
+                <span class="timer-text">0s</span>
+                <i class="fa fa-play play-button"></i>
+            </div>
+        </div>
+    </div>
     <hr />
     <ul class="book-wrapper">
-        @*<li class="book" data-id="1">
-                <div class="cover left">
-
-                </div>
-                <div class="spine">
-                    <div class="sticker">
-                        <span class="number">1</span>
-                        <span class="initials">ASI</span>
-                    </div>
-                </div>
-                <div class="cover right">
-
-                </div>
-            </li>*@
-
+        @*Books populate here*@
     </ul>
     <div class="progress-bar-wrapper">
         <div class="custom-progress-bar"></div>

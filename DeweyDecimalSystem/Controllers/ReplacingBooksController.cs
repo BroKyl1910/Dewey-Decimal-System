@@ -53,11 +53,11 @@ namespace DeweyDecimalSystem.Controllers
 
             // Sort books by number then name
             var sortedBooks = books.OrderBy(b => b.CallNumber.Number).ThenBy(b => b.CallNumber.Name).ToList();
-
-            return JsonConvert.SerializeObject(new { 
+            string json = JsonConvert.SerializeObject(new { 
                 bookViewModels,
                 sortedBooks
             });
+            return json;
         }
     }
 }
