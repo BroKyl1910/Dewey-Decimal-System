@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
+using DeweyDecimalSystem.Helpers;
 using DeweyDecimalSystem.Models;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
@@ -26,7 +27,7 @@ namespace DeweyDecimalSystem.Controllers
         private List<ScoreRecord> getScoresFromFile()
         {
             List<ScoreRecord> scores = new List<ScoreRecord>();
-            using (StreamReader sr = new StreamReader("Scores.csv"))
+            using (StreamReader sr = new StreamReader(FileURLHelper.SCORE_FILE_URL))
             {
                 string line = sr.ReadLine();
                 while (line != null)
