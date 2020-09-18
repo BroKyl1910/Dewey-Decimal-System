@@ -2,22 +2,29 @@
 var correctOrder = [];
 var timeSinceStart;
 var timerInterval;
+var lastName = "";
 
 
-$(document).ready(function () {
+$(window).on('pageshow',function () {
+    initialDataCall();
+});
+
+function initialDataCall(){
     $.ajax({
         method: "GET",
-        url: "ReplacingBooks/Initialise",
-        success: (data) => {
-            data = JSON.parse(data);
-            var bookViewModels = data.bookViewModels;
-            this.correctOrder = data.sortedBooks;
+        url: "/ReplacingBooks/Initialise",
+        success: (jsonString) => {
+            console.log(jsonString);
+            var parsedData = JSON.parse(jsonString);
+            var bookViewModels = parsedData.bookViewModels;
+            if (parsedData.lastName != undefined) lastName = parsedData.lastName;
+            this.correctOrder = parsedData.sortedBooks;
             console.log("Correct Order");
             console.log(this.correctOrder);
             buildBooks(bookViewModels);
         }
     });
-});
+}
 
 $('.play-button').on('click', () => {
     setupSortFunctionality();
@@ -101,8 +108,29 @@ function checkOrder() {
 
 function endGame() {
     setTimeout(() => {
-        alert('YOU WIN TWAT');
         clearInterval(timerInterval);
+        showForm();
     }, 1000);
 
 }
+
+function showForm() {
+    $('.popup-container').fadeIn();
+    $('#name-text').val(lastName);
+}
+
+$('.save-score-button').on('click', () => {
+    var name = $('#name-text').val();
+    var time = timeSinceStart;
+    $.ajax({
+        method: "POST",
+        url: "/ReplacingBooks/SaveTime",
+        data: {
+            name,
+            time
+        },
+        success: () => {
+            window.location.reload();
+        }
+    });
+});

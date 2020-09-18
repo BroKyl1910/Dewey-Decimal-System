@@ -85,13 +85,12 @@ body {
 }
 
 /* REPLACING BOOKS STYLES*/
-.back-button-wrapper{
+.back-button-wrapper {
     margin-top: 40px;
     margin-bottom: 40px;
-
 }
 
-.back-button{
+.back-button {
     height: 20px;
     background: $accent-color-light;
     border: 1px solid $accent-color-dark;
@@ -99,12 +98,12 @@ body {
     padding: 10px;
     color: white;
 
-    i{
+    i {
         margin-right: 5px;
     }
 
-    &:hover{
-        color:white;
+    &:hover {
+        color: white;
         text-decoration: none;
         background: darken($accent-color-light, 5);
     }
@@ -146,14 +145,14 @@ body {
                 align-items: center;
 
                 .timer-text {
-                    display:none;
+                    display: none;
                     font-size: 1.4em;
                 }
 
-                .play-button{
+                .play-button {
                     font-size: 1.4em;
 
-                    &:hover{
+                    &:hover {
                         color: rgba(255,255,255,0.8);
                         cursor: pointer;
                     }
@@ -244,6 +243,80 @@ body {
             background-color: $accent-color-dark;
             border-radius: 20px;
             transition: width 1s ease;
+        }
+    }
+}
+
+.popup-container {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 98;
+    background-color: rgba(0,0,0,0.5);
+
+    .form-wrapper {
+        border: 1px solid #707070;
+        border-radius: 5px;
+        padding: 30px;
+        margin-top: 20px;
+        background: #fff;
+        position: absolute;
+        overflow-y: auto;
+        top: 30%;
+        left: 50%;
+        transform: translate(-50%,-30%);
+        -webkit-transform: translate(-50%,-50%);
+        width: 50%;
+
+        .form-body {
+            display: flex;
+            flex-direction: column;
+
+            .form-component {
+                margin: 0;
+                margin-top: 10px;
+            }
+
+            .button-wrapper {
+                display: flex;
+                flex-direction: row-reverse;
+            }
+        }
+
+        .form-label {
+            margin-top: 5px;
+        }
+
+        .form-input.form-component {
+            padding: 10px;
+            border-radius: 10px;
+            border: 1px solid rgba(0,0,0,0.5);
+
+            &:focus {
+                outline: none;
+                border: 1px solid rgba(0,0,0,0.8);
+            }
+        }
+
+        .form-component.save-score-button {
+            border: none;
+            background-color: $accent-color-light;
+            box-shadow: 2px 2px 2px $accent-color-dark;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 10px;
+
+            &:hover {
+                background-color: darken($accent-color-light, 5);
+                cursor: pointer;
+            }
+
+            &:focus {
+                outline: none;
+            }
         }
     }
 }

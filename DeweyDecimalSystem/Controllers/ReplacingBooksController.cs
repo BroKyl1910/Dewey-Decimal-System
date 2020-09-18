@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
 using DeweyDecimalSystem.Models;
@@ -39,11 +40,11 @@ namespace DeweyDecimalSystem.Controllers
                 new Book(new CallNumber(574.89, "BIL")),
                 new Book(new CallNumber(603.36, "WIT")),
             };
-            
+
             //Jumble books and colors
             colors = colors.OrderBy(c => Guid.NewGuid()).ToList();
             books = books.OrderBy(c => Guid.NewGuid()).ToList();
-            
+
             // Populate book view models
             List<BookViewModel> bookViewModels = new List<BookViewModel>();
             for (int i = 0; i < books.Count; i++)
@@ -51,13 +52,29 @@ namespace DeweyDecimalSystem.Controllers
                 bookViewModels.Add(new BookViewModel(books[i], colors[i]));
             }
 
+            //Session variable name
+
             // Sort books by number then name
             var sortedBooks = books.OrderBy(b => b.CallNumber.Number).ThenBy(b => b.CallNumber.Name).ToList();
-            string json = JsonConvert.SerializeObject(new { 
+            string json = JsonConvert.SerializeObject(new
+            {
+                lastName = "Kyle",
                 bookViewModels,
                 sortedBooks
             });
             return json;
         }
+
+        [HttpPost]
+        public string SaveTime(string name, double time)
+        {
+            using (StreamWriter sw = new StreamWriter("Scores.csv", true))
+            {
+                string line = name + "," + time;
+                sw.WriteLine(line);
+            }
+            return "OK";
+        }
+
     }
 }
