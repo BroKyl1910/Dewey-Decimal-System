@@ -31,6 +31,11 @@ body {
     display: flex;
     flex-direction: column;
 
+    .game-wrapper {
+        display: flex;
+        flex-direction: row;
+    }
+
     .game-link-wrapper {
         background: $accent-color-light;
         border-radius: 5px;
@@ -38,6 +43,7 @@ body {
         padding: 10px;
         margin-bottom: 10px;
         border: 1px solid $accent-color-dark;
+        flex-basis: 100%;
 
         &:hover {
             background: darken($accent-color-light, 5);
@@ -52,6 +58,37 @@ body {
 
             h3.game-name {
                 color: white;
+            }
+        }
+    }
+
+    .leaderboard-link-wrapper {
+        background: $accent-color-light;
+        border-radius: 5px;
+        box-shadow: 2px 2px 2px $accent-color-dark;
+        padding: 10px;
+        margin-bottom: 10px;
+        border: 1px solid $accent-color-dark;
+        margin-left: 10px;
+        flex-basis: 75px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+
+        &:hover {
+            background: darken($accent-color-light, 5);
+        }
+
+        .leaderboard-link {
+
+            &:hover {
+                text-decoration: none;
+            }
+
+            .leaderboard-icon {
+                color: white;
+                font-size: 1.6em;
             }
         }
     }
@@ -319,4 +356,20 @@ body {
             }
         }
     }
+}
+
+
+.leaderboard-replacing-books-container {
+    width: 100%;
+    /*margin-top: 100px;*/
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px $primary-color-dark;
+    border: 1px solid $primary-color-dark;
+
+    table.table{
+        margin-top: 10px;
+    }
+
 }

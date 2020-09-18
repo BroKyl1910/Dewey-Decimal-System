@@ -130,7 +130,7 @@ $('.save-score-button').on('click', () => {
             time
         },
         success: () => {
-            window.location.reload();
+            window.location.replace('/Leaderboards/ReplacingBooks');
         }
     });
 });

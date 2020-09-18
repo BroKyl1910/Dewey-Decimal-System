@@ -7,7 +7,7 @@ using DeweyDecimalSystem.Models;
 using DeweyDecimalSystem.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
-
+using Microsoft.AspNetCore.Http;
 namespace DeweyDecimalSystem.Controllers
 {
     public class ReplacingBooksController : Controller
@@ -53,12 +53,13 @@ namespace DeweyDecimalSystem.Controllers
             }
 
             //Session variable name
+            string lastUsedName = HttpContext.Session.GetString("Name");
 
             // Sort books by number then name
             var sortedBooks = books.OrderBy(b => b.CallNumber.Number).ThenBy(b => b.CallNumber.Name).ToList();
             string json = JsonConvert.SerializeObject(new
             {
-                lastName = "Kyle",
+                lastName = lastUsedName,
                 bookViewModels,
                 sortedBooks
             });
@@ -66,14 +67,62 @@ namespace DeweyDecimalSystem.Controllers
         }
 
         [HttpPost]
-        public string SaveTime(string name, double time)
+        public string SaveTime(string name, int time)
         {
-            using (StreamWriter sw = new StreamWriter("Scores.csv", true))
+            var scoresInFile = getScoresFromFile();
+            ScoreRecord storedRecord = null;
+
+            // See if there is already a record with this name
+            if(scoresInFile.Any(s=>s.Name == name))
             {
-                string line = name + "," + time;
-                sw.WriteLine(line);
+                 storedRecord = scoresInFile.First(s => s.Name == name);
+            }
+
+            if (storedRecord == null)
+            {
+                // first time playing
+                scoresInFile.Add(new ScoreRecord(name, time));
+            }
+            else
+            {
+                // update old score if this one is smaller
+                if (storedRecord.Score > time)
+                {
+                    storedRecord.Score = time;
+                }
+            }
+
+            //Session variable name
+            HttpContext.Session.SetString("Name", name);
+
+
+            using (StreamWriter sw = new StreamWriter("Scores.csv", false))
+            {
+                foreach (var score in scoresInFile)
+                {
+                    string line = score.Name + "," + score.Score;
+                    sw.WriteLine(line);
+
+                }
             }
             return "OK";
+        }
+
+        private List<ScoreRecord> getScoresFromFile()
+        {
+            List<ScoreRecord> scores = new List<ScoreRecord>();
+            using (StreamReader sr = new StreamReader("Scores.csv"))
+            {
+                string line = sr.ReadLine();
+                while (line != null)
+                {
+                    var lineParts = line.Split(',');
+                    scores.Add(new ScoreRecord(lineParts[0], int.Parse(lineParts[1])));
+                    line = sr.ReadLine();
+                }
+            }
+
+            return scores;
         }
 
     }
