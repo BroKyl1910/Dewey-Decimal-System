@@ -56,6 +56,7 @@ namespace DeweyDecimalSystem.Controllers
             string lastUsedName = HttpContext.Session.GetString("Name");
 
             // Sort books by number then name
+            // LINQ uses a stable quicksort algorithm
             var sortedBooks = books.OrderBy(b => b.CallNumber.Number).ThenBy(b => b.CallNumber.Name).ToList();
             string json = JsonConvert.SerializeObject(new
             {
