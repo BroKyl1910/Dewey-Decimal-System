@@ -7,3 +7,5 @@ I used SCSS, which is precomplied on build using a grunt task. This shouldn't ca
 styles.scss.
 
 I have added basic test score data in scores.csv in the AppData directory.
+
+Link to YouTube video: https://youtu.be/3q3RD_8dplU
