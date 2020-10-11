@@ -1,0 +1,95 @@
+﻿
+@{
+    ViewData["Title"] = "Identifying Areas";
+}
+
+<div class="back-button-wrapper">
+    <a href="/Home/Index" class="back-button"><i class="fa fa-chevron-left"></i> Back to Menu</a>
+</div>
+<div class="container identifying-areas-container">
+    <div class="header-wrapper">
+        <div class="header-left">
+            <h2>Identifying Areas</h2>
+            <span class="instructions">Match the concept on the left with the description on the right.</span>
+        </div>
+        <div class="header-right">
+            <div class="timer-wrapper">
+                <span class="timer-text">0s</span>
+                <i class="fa fa-play play-button"></i>
+            </div>
+        </div>
+    </div>
+    <hr />
+
+    <div class="column-wrapper">
+        <div class="left-column">
+            <div class="question-wrapper">
+                <span class="question-text">Question 1 goes here</span>
+                <div class="host-wrapper empty drop">
+                    <span class="host-placeholder">Drag answer here..</span>
+                </div>
+            </div>
+            <div class="question-wrapper">
+                <span class="question-text">Question 2 goes here</span>
+                <div class="host-wrapper empty drop">
+                    <span class="host-placeholder">Drag answer here..</span>
+                </div>
+            </div>
+            <div class="question-wrapper">
+                <span class="question-text">Question 3 goes here</span>
+                <div class="host-wrapper empty drop">
+                    <span class="host-placeholder">Drag answer here..</span>
+                </div>
+            </div>
+            <div class="question-wrapper">
+                <span class="question-text">Question 4 goes here</span>
+                <div class="host-wrapper empty drop">
+                    <span class="host-placeholder">Drag answer here..</span>
+                </div>
+            </div>
+        </div>
+        <div class="right-column" id="origin">
+            <div class="answer-wrapper draggable">
+                <span class="answer-text">Answer 1 text goes here, Answer 1 text goes here, Answer 1 text goes here, Answer 1 text goes here</span>
+            </div>
+            <div class="answer-wrapper draggable">
+                <span class="answer-text">Answer 2 text goes here</span>
+            </div>
+            <div class="answer-wrapper draggable">
+                <span class="answer-text">Answer 3 text goes here</span>
+            </div>
+            <div class="answer-wrapper draggable">
+                <span class="answer-text">Answer 4 text goes here</span>
+            </div>
+            <div class="answer-wrapper draggable">
+                <span class="answer-text">Answer 5 text goes here</span>
+            </div>
+            <div class="answer-wrapper draggable">
+                <span class="answer-text">Answer 6 text goes here</span>
+            </div>
+            <div class="answer-wrapper draggable">
+                <span class="answer-text">Answer 7 text goes here</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="progress-bar-wrapper">
+        <div class="custom-progress-bar"></div>
+    </div>
+</div>
+
+<div class="popup-container">
+    <div class="form-wrapper">
+        <h2>Save Time</h2>
+        <hr>
+        <div class="form-body">
+            <input class="form-input form-component" type="text" id="name-text" placeholder="Enter your name" />
+            <div class="button-wrapper">
+                <button class="save-score-button form-component">Save</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="~/js/identifying-areas.js"></script>
+

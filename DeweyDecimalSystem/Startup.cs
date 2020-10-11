@@ -58,6 +58,7 @@ namespace DeweyDecimalSystem
                 endpoints.MapControllerRoute(
                     name: "default",
                     //pattern: "{controller=Tasks}/{action=ReplacingBooks}/{id?}");
+                    //pattern: "{controller=Tasks}/{action=IdentifyingAreas}/{id?}");
                     pattern: "{controller=Home}/{action=Index}/{id?}");
             });
         }

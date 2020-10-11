@@ -11,10 +11,11 @@ namespace DeweyDecimalSystem.Controllers
 {
     public class HomeController : Controller
     {
-        
+
         public IActionResult Index()
         {
-            return View();
+            //return View();
+            return RedirectToAction("IdentifyingAreas", "Tasks");
         }
     }
 }

@@ -13,5 +13,11 @@ namespace DeweyDecimalSystem.Controllers
 
             return View();
         }
+
+        public IActionResult IdentifyingAreas()
+        {
+
+            return View();
+        }
     }
 }
