@@ -18,8 +18,9 @@ namespace DeweyDecimalSystem.Controllers
             Dictionary<string, string> areaDictionary = PopulateDictionary(roundNumber);
             Dictionary<string, string> shuffledDictionary = ShuffleDictionary(areaDictionary);
 
-            List<string> keys = new List<string>(shuffledDictionary.Keys).Take(4).ToList();
-            List<string> values= new List<string>(shuffledDictionary.Values).Take(7).ToList();
+            Random rand = new Random();
+            List<string> keys = new List<string>(shuffledDictionary.Keys).Take(4).OrderBy(x => rand.Next()).ToList();
+            List<string> values= new List<string>(shuffledDictionary.Values).Take(7).OrderBy(x => rand.Next()).ToList();
 
             //Session variable name
             string lastUsedName = HttpContext.Session.GetString("Name");
