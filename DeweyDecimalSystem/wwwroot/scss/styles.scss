@@ -333,6 +333,59 @@ body {
                     }
                 }
             }
+
+            .endgame-controls-wrapper {
+                height: 75px;
+                display: flex;
+                flex-direction: row-reverse;
+                justify-content: center;
+                align-items: center;
+                display: none;
+
+                .endgame-control {
+                    border-radius: 5px;
+                    padding: 20px;
+                    margin-left: 5px;
+                    flex-basis: 75px;
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    justify-content: center;
+
+                    &:hover {
+                        text-decoration: none;
+                    }
+
+                    .control-icon {
+                        color: white;
+                        font-size: 1.4em;
+
+                        &:hover {
+                            cursor: pointer;
+                        }
+                    }
+                }
+
+                .endgame-control.next {
+                    background: $primary-color-light;
+                    box-shadow: 2px 2px 2px $primary-color-dark;
+                    border: 1px solid $primary-color-dark;
+
+                    &:hover {
+                        background: darken($primary-color-light, 5);
+                    }
+                }
+
+                .endgame-control.leaderboard {
+                    background: $accent-color-light;
+                    box-shadow: 2px 2px 2px $accent-color-dark;
+                    border: 1px solid $accent-color-dark;
+
+                    &:hover {
+                        background: darken($accent-color-light, 5);
+                    }
+                }
+            }
         }
     }
 
@@ -359,6 +412,7 @@ body {
 
     .right-column .answer-wrapper {
         margin-bottom: 10px;
+        user-select: none;
     }
 
     .answer-wrapper {
@@ -404,8 +458,7 @@ body {
 
     .host-wrapper.empty {
         background: rgba(255,255,255,0.5);
-        padding: 10px;    
-
+        padding: 10px;
     }
 
     .host-wrapper.over {
@@ -418,6 +471,7 @@ body {
 
     .host-wrapper.empty .host-placeholder {
         display: block;
+        font-style: italic;
     }
 
 

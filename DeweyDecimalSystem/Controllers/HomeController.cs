@@ -14,8 +14,7 @@ namespace DeweyDecimalSystem.Controllers
 
         public IActionResult Index()
         {
-            //return View();
-            return RedirectToAction("IdentifyingAreas", "Tasks");
+            return View();
         }
     }
 }

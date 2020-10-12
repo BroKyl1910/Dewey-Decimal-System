@@ -99,7 +99,7 @@ namespace DeweyDecimalSystem.Controllers
             HttpContext.Session.SetString("Name", name);
 
 
-            using (StreamWriter sw = new StreamWriter(FileURLHelper.SCORE_FILE_URL, false))
+            using (StreamWriter sw = new StreamWriter(FileURLHelper.REPLACING_BOOKS_SCORE_FILE_URL, false))
             {
                 foreach (var score in scoresInFile)
                 {
@@ -114,7 +114,7 @@ namespace DeweyDecimalSystem.Controllers
         private List<ScoreRecord> getScoresFromFile()
         {
             List<ScoreRecord> scores = new List<ScoreRecord>();
-            using (StreamReader sr = new StreamReader(FileURLHelper.SCORE_FILE_URL))
+            using (StreamReader sr = new StreamReader(FileURLHelper.REPLACING_BOOKS_SCORE_FILE_URL))
             {
                 string line = sr.ReadLine();
                 while (line != null)
