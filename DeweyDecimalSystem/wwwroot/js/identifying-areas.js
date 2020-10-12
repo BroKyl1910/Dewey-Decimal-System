@@ -145,7 +145,12 @@ function checkAnswers() {
             if (correctDictionary[question.toString()] == answer) {
                 numCorrect++;
                 console.log('Correct', numCorrect);
+                $(drops[i]).parent('.question-wrapper').addClass('correct');
+            } else {
+                $(drops[i]).parent('.question-wrapper').addClass('incorrect');
             }
+        } else {
+            $(drops[i]).parent('.question-wrapper').removeClass('correct').removeClass('incorrect');
         }
 
     }
