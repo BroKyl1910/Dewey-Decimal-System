@@ -5,11 +5,11 @@ var timerInterval;
 var lastName = "";
 
 
-$(window).on('pageshow',function () {
+$(window).on('pageshow', function () {
     initialDataCall();
 });
 
-function initialDataCall(){
+function initialDataCall() {
     $.ajax({
         method: "GET",
         url: "/ReplacingBooks/Initialise",
@@ -121,6 +121,13 @@ function showForm() {
 
 $('.save-score-button').on('click', () => {
     var name = $('#name-text').val();
+    if (name == '') {
+        $('.error-text').html('Please enter a name');
+        return;
+    }
+
+    $('.error-text').html('');
+
     var time = timeSinceStart;
     $.ajax({
         method: "POST",

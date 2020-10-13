@@ -94,6 +94,12 @@ function showForm() {
 
 $('.save-score-button').on('click', () => {
     enteredName = $('#name-text').val();
+    if (enteredName == '') {
+        $('.error-text').html('Please enter a name');
+        return;
+    }
+    $('.error-text').html('');
+
     $('.popup-container').fadeOut();
 });
 

@@ -429,6 +429,7 @@ body {
     }
 
     .question-wrapper {
+        user-select: none;
         background: #4e89ae;
         box-shadow: 2px 2px 2px #4365ab;
         color: white;
@@ -504,13 +505,6 @@ body {
     }
 }
 
-
-
-
-
-
-
-
 .popup-container {
     display: none;
     position: fixed;
@@ -542,6 +536,13 @@ body {
             .form-component {
                 margin: 0;
                 margin-top: 10px;
+            }
+
+            .error-wrapper{
+                margin-top: 10px;
+                .error-text{
+                    color: red;
+                }
             }
 
             .button-wrapper {
