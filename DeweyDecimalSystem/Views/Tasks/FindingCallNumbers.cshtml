@@ -1,0 +1,62 @@
+﻿
+@{
+    ViewData["Title"] = "Finding Call Numbers";
+}
+
+<div class="back-button-wrapper">
+    <a href="/Home/Index" class="back-button"><i class="fa fa-chevron-left"></i> Back to Menu</a>
+</div>
+<div class="container finding-call-numbers-container">
+    <div class="header-wrapper">
+        <div class="header-left">
+            <h2>Finding Call Numbers</h2>
+            <span class="instructions">Find the call number of the given category by choosing the correct call number at each level. Get more answers correct with a faster time to rank higher</span>
+        </div>
+        <div class="header-right">
+            <div class="timer-wrapper">
+                <span class="timer-text">0s</span>
+                <i class="fa fa-play play-button"></i>
+            </div>
+            <div class="endgame-controls-wrapper">
+                <div class="endgame-control next"><i class="fas fa-play control-icon"></i></div>
+                <div class="endgame-control leaderboard"><i class="fas fa-award control-icon"></i></div>
+            </div>
+        </div>
+    </div>
+    <hr />
+
+    <div class="top-call-number-wrapper">
+        <div class="top-call-number-container">
+            <span class="top-call-number" id="top-call-number">Color</span>
+        </div>
+    </div>
+       <span class="question-text" id="question text">Which top level category does <em>Color</em> belong to?</span> 
+    <ul class="answer-list">
+        <li class="answer-list-item" data-id="000">
+            <span class="answer-text">
+                000 Computer science, information & general works
+            </span>
+        </li>
+        <li class="answer-list-item" data-id="200">
+            <span class="answer-text">
+                200 Religion
+            </span>
+        </li>
+        <li class="answer-list-item" data-id="400">
+            <span class="answer-text">
+                400 Language
+            </span>
+        </li>
+        <li class="answer-list-item"  data-id="500">
+            <span class="answer-text">
+                500 Pure Science
+            </span>
+        </li>
+    </ul>
+
+    <div class="progress-bar-wrapper">
+        <div class="custom-progress-bar"></div>
+    </div>
+</div>
+
+<script src="~/js/finding-call-numbers.js"></script>

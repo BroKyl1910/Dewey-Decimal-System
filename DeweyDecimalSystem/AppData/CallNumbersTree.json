@@ -1,0 +1,1837 @@
+{
+  "CallNumberTree": {
+    "Root": {
+      "Data": null,
+      "Parent": null,
+      "Children": [
+        {
+          "Data": {
+            "Number": "000",
+            "Description": "Computer science, information & general works"
+          },
+          "Children": [
+            {
+              "Data": {
+                "Number": "020",
+                "Description": "Library & information sciences"
+              },
+              "Children": [
+                {
+                  "Data": {
+                    "Number": "022",
+                    "Description": "Administration of physical plant"
+                  },
+                  "Children": []
+                },
+                {
+                  "Data": {
+                    "Number": "023",
+                    "Description": "Personnel management"
+                  },
+                  "Children": []
+                }
+              ]
+            },
+            {
+              "Data": {
+                "Number": "050",
+                "Description": "Magazines, journals & serials"
+              },
+              "Children": [
+                {
+                  "Data": {
+                    "Number": "051",
+                    "Description": "General serial publications in American English"
+                  },
+                  "Children": []
+                },
+                {
+                  "Data": {
+                    "Number": "058",
+                    "Description": "Serials in Scandinavian languages"
+                  },
+                  "Children": []
+                }
+              ]
+            },
+            {
+              "Data": {
+                "Number": "060",
+                "Description": "Associations, organizations & museums"
+              },
+              "Children": [
+                {
+                  "Data": {
+                    "Number": "062",
+                    "Description": "General organizations in British Isles"
+                  },
+                  "Children": []
+                },
+                {
+                  "Data": {
+                    "Number": "066",
+                    "Description": "General organizations in Spain"
+                  },
+                  "Children": []
+                }
+              ]
+            },
+            {
+              "Data": {
+                "Number": "070",
+                "Description": "News media, journalism & publishing"
+              },
+              "Children": [
+                {
+                  "Data": {
+                    "Number": "072",
+                    "Description": "Journalism and newspapers in British Isles"
+                  },
+                  "Children": []
+                },
+                {
+                  "Data": {
+                    "Number": "075",
+                    "Description": "Journalism and newspapers in Italy"
+                  },
+                  "Children": []
+                }
+              ]
+            },
+            {
+              "Data": {
+                "Number": "090",
+                "Description": "Manuscripts, rare books"
+              },
+              "Children": [
+                {
+                  "Data": {
+                    "Number": "094",
+                    "Description": "Printed books"
+                  },
+                  "Children": []
+                },
+                {
+                  "Data": {
+                    "Number": "095",
+                    "Description": "Books notable for bindings"
+                  },
+                  "Children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Data": {
+            "Number": "100",
+            "Description": "Philosophy & psychology"
+          },
+          "Children": [
+            {
+              "Data": {
+                "Number": "110",
+                "Description": "Metaphysics"
+              },
+              "Children": [
+                {
+                  "Data": {
+                    "Number": "115",
+                    "Description": "Time"
+                  },
+                  "Children": []
+                },
+                {
+                  "Data": {
+                    "Number": "116",
+                    "Description": "Change"
+                  },
+                  "Children": []
+                }
+              ]
+            },
+            {
+              "Data": {
+                "Number": "120",
+                "Description": "Epistemology"
+              },
+              "Children": [
+                {
+                  "Data": {
+                    "Number": "122",
+                    "Description": "Causation"
+                  },
+                  "Children": []
+                },
+                {
+                  "Data": {
+                    "Number": "124",
+                    "Description": "Teleology"
+                  },
+                  "Children": []
+                }
+              ]
+            },
+            {
+              "Data": {
+                "Number": "130",
+                "Description": "Parapsychology and occultism"
+              },
+              "Children": [
+                {
+                  "Data": {
+                    "Number": "133",
+                    "Description": "Specific topics in parapsychology & occultism"
+                  },
+                  "Children": []
+                },
+                {
+                  "Data": {
+                    "Number": "137",
+                    "Description": "Divinatory graphology"
+                  },
+                  "Children": []
+                }
+              ]
+            },
+            {
+              "Data": {
+                "Number": "150",
+                "Description": "Psychology"
+              },
+              "Children": [
+                {
+                  "Data": {
+                    "Number": "156",
+                    "Description": "Comparative psychology"
+                  },
+                  "Children": []
+                },
+                {
+                  "Data": {
+                    "Number": "158",
+                    "Description": "Applied psychology"
+                  },
+                  "Children": []
+                }
+              ]
+            },
+            {
+              "Data": {
+                "Number": "170",
+                "Description": "Ethics (Moral philosophy)"
+              },
+              "Children": [
+                {
+                  "Data": {
+                    "Number": "171",
+                    "Description": "Ethical systems"
+                  },
+                  "Children": []
+                },
+                {
+                  "Data": {
+                    "Number": "176",
+                    "Description": "Ethics of sex and reproduction"
+                  },
+                  "Children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Data": {
+            "Number": "200",
+            "Description": "Religion"
+          },
+          "Children": [
+            {
+              "Data": {
+                "Number": "210",
+                "Description": "Philosophy & theory of religion"
+              },
+              "Children": [
+                {
+                  "Data": {
+                    "Number": "211",
+                    "Description": "Concepts of God"
+                  },
+                  "Children": []
+                },
+                {
+                  "Data": {
+                    "Number": "213",
+                    "Description": "Creation"
+                  },
+                  "Children": []
+                }
+              ]
+            },
+            {
+              "Data": {
+                "Number": "220",
+                "Description": "The Bible"
+              },
+              "Children": [
+                {
+                  "Data": {
+                    "Number": "221",
+                    "Description": "Old Testament (Tanakh)"
+                  },
+                  "Children": []
+                },
+                {
+                  "Data": {
+                    "Number": "225",
+                    "Description": "New Testament"
+                  },
+                  "Children": []
+                }
+              ]
+            },
+            {
+              "Data": {
+                "Number": "230",
+                "Description": "Christianity"
+              },
+              "Children": [
+                {
+                  "Data": {
+                    "Number": "231",
+                    "Description": "God"
+                  },
+                  "Children": []
+                },
+                {
+                  "Data": {
+                    "Number": "234",
+                    "Description": "Salvation and grace"
+                  },
+                  "Children": []
+                }
+              ]
+            },
+            {
+              "Data": {
+                "Number": "260",
+                "Description": "Christian organization, social work & worship"
+              },
+              "Children": [
+                {
+                  "Data": {
+                    "Number": "264",
+                    "Description": "Public worship"
+                  },
+                  "Children": []
+                },
+                {
+                  "Data": {
+                    "Number": "269",
+                    "Description": "Spiritual renewal"
+                  },
+                  "Children": []
+                }
+              ]
+            },
+            {
+              "Data": {
+                "Number": "290",
+                "Description": "Other religions"
+              },
+              "Children": [
+                {
+                  "Data": {
+                    "Number": "296",
+                    "Description": "Judaism"
+                  },
+                  "Children": []
+                },
+                {
+                  "Data": {
+                    "Number": "297",
+                    "Description": "Islam, Babism & Bahai Faith"
+                  },
+                  "Children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Data": {
+            "Number": "300",
+            "Description": "Social sciences"
+          },
+          "Children": [
+            {
+              "Data": {
+                "Number": "310",
+                "Description": "Statistics"
+              },
+              "Children": [
+                {
+                  "Data": {
+                    "Number": "315",
+                    "Description": "General statistics of Asia"
+                  },
+                  "Children": []
+                },
+                {
+                  "Data": {
+                    "Number": "319",
+                    "Description": "General statistics of other areas"
+                  },
+                  "Children": []
+                }
+              ]
+            },
+            {
+              "Data": {
+                "Number": "340",
+                "Description": "Law"
+              },
+              "Children": [
+                {
+                  "Data": {
+                    "Number": "341",
+                    "Description": "Law of nations"
+                  },
+                  "Children": []
+                },
+                {
+                  "Data": {
+                    "Number": "345",
+                    "Description": "Criminal law"
+                  },
+                  "Children": []
+                }
+              ]
+            },
+            {
+              "Data": {
+                "Number": "360",
+                "Description": "Social problems & social services"
+              },
+              "Children": [
+                {
+                  "Data": {
+                    "Number": "364",
+                    "Description": "Criminology"
+                  },
+                  "Children": []
+                },
+                {
+                  "Data": {
+                    "Number": "368",
+                    "Description": "Insurance"
+                  },
+                  "Children": []
+                }
+              ]
+            },
+            {
+              "Data": {
+                "Number": "370",
+                "Description": "Education"
+              },
+              "Children": [
+                {
+                  "Data": {
+                    "Number": "371",
+                    "Description": "Schools and their activities; special education"
+                  },
+                  "Children": []
+                },
+                {
+                  "Data": {
+                    "Number": "378",
+                    "Description": "Higher education (Tertiary education)"
+                  },
+                  "Children": []
+                }
+              ]
+            },
+            {
+              "Data": {
+                "Number": "390",
+                "Description": "Customs, etiquette & folklore"
+              },
+              "Children": [
+                {
+                  "Data": {
+                    "Number": "391",
+                    "Description": "Costume and personal appearance"
+                  },
+                  "Children": []
+                },
+                {
+                  "Data": {
+                    "Number": "393",
+                    "Description": "Death customs"
+                  },
+                  "Children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Data": {
+            "Number": "400",
+            "Description": "Language"
+          },
+          "Children": [
+            {
+              "Data": {
+                "Number": "410",
+                "Description": "Linguistics"
+              },
+              "Children": [
+                {
+                  "Data": {
+                    "Number": "412",
+                    "Description": "Etymology"
+                  },
+                  "Children": []
+                },
+                {
+                  "Data": {
+                    "Number": "415",
+                    "Description": "Grammar"
+                  },
+                  "Children": []
+                }
+              ]
+            },
+            {
+              "Data": {
+                "Number": "420",
+                "Description": "English & Old English languages"
+              },
+              "Children": [
+                {
+                  "Data": {
+                    "Number": "422",
+                    "Description": "Etymology of standard English"
+                  },
+                  "Children": []
+                },
+                {
+                  "Data": {
+                    "Number": "423",
+                    "Description": "Dictionaries of standard English"
+                  },
+                  "Children": []
+                }
+              ]
+            },
+            {
+              "Data": {
+                "Number": "440",
+                "Description": "French & related languages"
+              },
+              "Children": [
+                {
+                  "Data": {
+                    "Number": "445",
+                    "Description": "Grammar of standard French"
+                  },
+                  "Children": []
+                },
+                {
+                  "Data": {
+                    "Number": "447",
+                    "Description": "French language variations"
+                  },
+                  "Children": []
+                }
+              ]
+            },
+            {
+              "Data": {
+                "Number": "450",
+                "Description": "Italian, Romanian & related languages"
+              },
+              "Children": [
+                {
+                  "Data": {
+                    "Number": "451",
+                    "Description": "Writing system, phonology, phonetics"
+                  },
+                  "Children": []
+                },
+                {
+                  "Data": {
+                    "Number": "458",
+                    "Description": "Standard Italian usage"
+                  },
+                  "Children": []
+                }
+              ]
+            },
+            {
+              "Data": {
+                "Number": "460",
+                "Description": "Spanish, Portuguese, Galician"
+              },
+              "Children": [
+                {
+                  "Data": {
+                    "Number": "463",
+                    "Description": "Dictionaries of standard Spanish"
+                  },
+                  "Children": []
+                },
+                {
+                  "Data": {
+                    "Number": "467",
+                    "Description": "Spanish language variations"
+                  },
+                  "Children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Data": {
+            "Number": "500",
+            "Description": "Pure science"
+          },
+          "Children": [
+            {
+              "Data": {
+                "Number": "510",
+                "Description": "Mathematics"
+              },
+              "Children": [
+                {
+                  "Data": {
+                    "Number": "511",
+                    "Description": "General principles of mathematics"
+                  },
+                  "Children": []
+                },
+                {
+                  "Data": {
+                    "Number": "516",
+                    "Description": "Geometry"
+                  },
+                  "Children": []
+                }
+              ]
+            },
+            {
+              "Data": {
+                "Number": "520",
+                "Description": "Astronomy"
+              },
+              "Children": [
+                {
+                  "Data": {
+                    "Number": "522",
+                    "Description": "Techniques, equipment & materials"
+                  },
+                  "Children": []
+                },
+                {
+                  "Data": {
+                    "Number": "523",
+                    "Description": "Specific celestial bodies and phenomena"
+                  },
+                  "Children": []
+                }
+              ]
+            },
+            {
+              "Data": {
+                "Number": "530",
+                "Description": "Physics"
+              },
+              "Children": [
+                {
+                  "Data": {
+                    "Number": "531",
+                    "Description": "Classical mechanics"
+                  },
+                  "Children": []
+                },
+                {
+                  "Data": {
+                    "Number": "535",
+                    "Description": "Light and related radiation"
+                  },
+                  "Children": []
+                }
+              ]
+            },
+            {
+              "Data": {
+                "Number": "570",
+                "Description": "Biology"
+              },
+              "Children": [
+                {
+                  "Data": {
+                    "Number": "571",
+                    "Description": "Physiology & related subjects"
+                  },
+                  "Children": []
+                },
+                {
+                  "Data": {
+                    "Number": "576",
+                    "Description": "Genetics and evolution"
+                  },
+                  "Children": []
+                }
+              ]
+            },
+            {
+              "Data": {
+                "Number": "590",
+                "Description": "Animals (Zoology)"
+              },
+              "Children": [
+                {
+                  "Data": {
+                    "Number": "592",
+                    "Description": "Invertebrates"
+                  },
+                  "Children": []
+                },
+                {
+                  "Data": {
+                    "Number": "595",
+                    "Description": "Arthropoda"
+                  },
+                  "Children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Data": {
+            "Number": "600",
+            "Description": "Technology"
+          },
+          "Children": [
+            {
+              "Data": {
+                "Number": "610",
+                "Description": "Medicine & health"
+              },
+              "Children": [
+                {
+                  "Data": {
+                    "Number": "612",
+                    "Description": "Human physiology"
+                  },
+                  "Children": []
+                },
+                {
+                  "Data": {
+                    "Number": "614",
+                    "Description": "Forensic medicine; incidence of disease"
+                  },
+                  "Children": []
+                }
+              ]
+            },
+            {
+              "Data": {
+                "Number": "620",
+                "Description": "Engineering"
+              },
+              "Children": [
+                {
+                  "Data": {
+                    "Number": "621",
+                    "Description": "Applied physics"
+                  },
+                  "Children": []
+                },
+                {
+                  "Data": {
+                    "Number": "624",
+                    "Description": "Civil engineering"
+                  },
+                  "Children": []
+                }
+              ]
+            },
+            {
+              "Data": {
+                "Number": "650",
+                "Description": "Management & public relations"
+              },
+              "Children": [
+                {
+                  "Data": {
+                    "Number": "651",
+                    "Description": "Office services"
+                  },
+                  "Children": []
+                },
+                {
+                  "Data": {
+                    "Number": "658",
+                    "Description": "General management"
+                  },
+                  "Children": []
+                }
+              ]
+            },
+            {
+              "Data": {
+                "Number": "660",
+                "Description": "Chemical engineering"
+              },
+              "Children": [
+                {
+                  "Data": {
+                    "Number": "662",
+                    "Description": "Explosives, fuels & related products"
+                  },
+                  "Children": []
+                },
+                {
+                  "Data": {
+                    "Number": "664",
+                    "Description": "Food technology"
+                  },
+                  "Children": []
+                }
+              ]
+            },
+            {
+              "Data": {
+                "Number": "690",
+                "Description": "Construction of buildings"
+              },
+              "Children": [
+                {
+                  "Data": {
+                    "Number": "691",
+                    "Description": "Building materials"
+                  },
+                  "Children": []
+                },
+                {
+                  "Data": {
+                    "Number": "694",
+                    "Description": "Wood construction"
+                  },
+                  "Children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Data": {
+            "Number": "700",
+            "Description": "Arts & recreation"
+          },
+          "Children": [
+            {
+              "Data": {
+                "Number": "710",
+                "Description": "Area planning & landscape architecture"
+              },
+              "Children": [
+                {
+                  "Data": {
+                    "Number": "711",
+                    "Description": "Area planning (Civic art)"
+                  },
+                  "Children": []
+                },
+                {
+                  "Data": {
+                    "Number": "714",
+                    "Description": "Water features in landscape architecture"
+                  },
+                  "Children": []
+                }
+              ]
+            },
+            {
+              "Data": {
+                "Number": "740",
+                "Description": "Graphic arts & decorative arts"
+              },
+              "Children": [
+                {
+                  "Data": {
+                    "Number": "741",
+                    "Description": "Drawing and drawings"
+                  },
+                  "Children": []
+                },
+                {
+                  "Data": {
+                    "Number": "748",
+                    "Description": "Glass"
+                  },
+                  "Children": []
+                }
+              ]
+            },
+            {
+              "Data": {
+                "Number": "750",
+                "Description": "Painting"
+              },
+              "Children": [
+                {
+                  "Data": {
+                    "Number": "752",
+                    "Description": "Colour"
+                  },
+                  "Children": []
+                },
+                {
+                  "Data": {
+                    "Number": "757",
+                    "Description": "Human figures"
+                  },
+                  "Children": []
+                }
+              ]
+            },
+            {
+              "Data": {
+                "Number": "770",
+                "Description": "Photography, computer art, film, video"
+              },
+              "Children": [
+                {
+                  "Data": {
+                    "Number": "772",
+                    "Description": "Metallic salt processes"
+                  },
+                  "Children": []
+                },
+                {
+                  "Data": {
+                    "Number": "776",
+                    "Description": "Computer art (Digital art)"
+                  },
+                  "Children": []
+                }
+              ]
+            },
+            {
+              "Data": {
+                "Number": "780",
+                "Description": "Music"
+              },
+              "Children": [
+                {
+                  "Data": {
+                    "Number": "782",
+                    "Description": "Vocal music"
+                  },
+                  "Children": []
+                },
+                {
+                  "Data": {
+                    "Number": "788",
+                    "Description": "Wind instruments (Aerophones)"
+                  },
+                  "Children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Data": {
+            "Number": "800",
+            "Description": "Literature"
+          },
+          "Children": [
+            {
+              "Data": {
+                "Number": "810",
+                "Description": "American literature in English"
+              },
+              "Children": [
+                {
+                  "Data": {
+                    "Number": "811",
+                    "Description": "American poetry in English"
+                  },
+                  "Children": []
+                },
+                {
+                  "Data": {
+                    "Number": "813",
+                    "Description": "American fiction in English"
+                  },
+                  "Children": []
+                }
+              ]
+            },
+            {
+              "Data": {
+                "Number": "820",
+                "Description": "English & Old English literatures"
+              },
+              "Children": [
+                {
+                  "Data": {
+                    "Number": "821",
+                    "Description": "English poetry"
+                  },
+                  "Children": []
+                },
+                {
+                  "Data": {
+                    "Number": "829",
+                    "Description": "Old English (Anglo-Saxon) literature"
+                  },
+                  "Children": []
+                }
+              ]
+            },
+            {
+              "Data": {
+                "Number": "850",
+                "Description": "Italian, Romanian & related literatures"
+              },
+              "Children": [
+                {
+                  "Data": {
+                    "Number": "852",
+                    "Description": "Italian drama"
+                  },
+                  "Children": []
+                },
+                {
+                  "Data": {
+                    "Number": "856",
+                    "Description": "Italian letters"
+                  },
+                  "Children": []
+                }
+              ]
+            },
+            {
+              "Data": {
+                "Number": "880",
+                "Description": "Classical & modern Greek literatures"
+              },
+              "Children": [
+                {
+                  "Data": {
+                    "Number": "884",
+                    "Description": "Classical Greek lyric poetry"
+                  },
+                  "Children": []
+                },
+                {
+                  "Data": {
+                    "Number": "886",
+                    "Description": "Classical Greek letters"
+                  },
+                  "Children": []
+                }
+              ]
+            },
+            {
+              "Data": {
+                "Number": "890",
+                "Description": "Other literatures"
+              },
+              "Children": [
+                {
+                  "Data": {
+                    "Number": "892",
+                    "Description": "Afro-Asiatic literatures"
+                  },
+                  "Children": []
+                },
+                {
+                  "Data": {
+                    "Number": "896",
+                    "Description": "African literatures"
+                  },
+                  "Children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Data": {
+            "Number": "900",
+            "Description": "History & geography"
+          },
+          "Children": [
+            {
+              "Data": {
+                "Number": "910",
+                "Description": "Geography & travel"
+              },
+              "Children": [
+                {
+                  "Data": {
+                    "Number": "911",
+                    "Description": "Historical geography"
+                  },
+                  "Children": []
+                },
+                {
+                  "Data": {
+                    "Number": "912",
+                    "Description": "Maps and plans of surface of earth"
+                  },
+                  "Children": []
+                }
+              ]
+            },
+            {
+              "Data": {
+                "Number": "920",
+                "Description": "Biography & genealogy"
+              },
+              "Children": [
+                {
+                  "Data": {
+                    "Number": "929",
+                    "Description": "Genealogy, names & insignia"
+                  },
+                  "Children": []
+                }
+              ]
+            },
+            {
+              "Data": {
+                "Number": "940",
+                "Description": "History of Europe"
+              },
+              "Children": [
+                {
+                  "Data": {
+                    "Number": "942",
+                    "Description": "England and Wales"
+                  },
+                  "Children": []
+                },
+                {
+                  "Data": {
+                    "Number": "943",
+                    "Description": "Germany & central Europe"
+                  },
+                  "Children": []
+                },
+                {
+                  "Data": {
+                    "Number": "944",
+                    "Description": "France and Monaco"
+                  },
+                  "Children": []
+                }
+              ]
+            },
+            {
+              "Data": {
+                "Number": "970",
+                "Description": "History of North America"
+              },
+              "Children": [
+                {
+                  "Data": {
+                    "Number": "972",
+                    "Description": "Mexico, Central America, West Indies"
+                  },
+                  "Children": []
+                },
+                {
+                  "Data": {
+                    "Number": "978",
+                    "Description": "Western United States"
+                  },
+                  "Children": []
+                }
+              ]
+            },
+            {
+              "Data": {
+                "Number": "990",
+                "Description": "History of other areas"
+              },
+              "Children": [
+                {
+                  "Data": {
+                    "Number": "994",
+                    "Description": "Australia"
+                  },
+                  "Children": []
+                },
+                {
+                  "Data": {
+                    "Number": "999",
+                    "Description": "Extra-terrestrial worlds"
+                  },
+                  "Children": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "Count": 161
+  },
+  "Level1CallNumbers": [
+    {
+      "Number": "000",
+      "Description": "Computer science, information & general works"
+    },
+    {
+      "Number": "100",
+      "Description": "Philosophy & psychology"
+    },
+    {
+      "Number": "200",
+      "Description": "Religion"
+    },
+    {
+      "Number": "300",
+      "Description": "Social sciences"
+    },
+    {
+      "Number": "400",
+      "Description": "Language"
+    },
+    {
+      "Number": "500",
+      "Description": "Pure science"
+    },
+    {
+      "Number": "600",
+      "Description": "Technology"
+    },
+    {
+      "Number": "700",
+      "Description": "Arts & recreation"
+    },
+    {
+      "Number": "800",
+      "Description": "Literature"
+    },
+    {
+      "Number": "900",
+      "Description": "History & geography"
+    }
+  ],
+  "Level2CallNumbers": [
+    {
+      "Number": "020",
+      "Description": "Library & information sciences"
+    },
+    {
+      "Number": "050",
+      "Description": "Magazines, journals & serials"
+    },
+    {
+      "Number": "060",
+      "Description": "Associations, organizations & museums"
+    },
+    {
+      "Number": "070",
+      "Description": "News media, journalism & publishing"
+    },
+    {
+      "Number": "090",
+      "Description": "Manuscripts, rare books"
+    },
+    {
+      "Number": "110",
+      "Description": "Metaphysics"
+    },
+    {
+      "Number": "120",
+      "Description": "Epistemology"
+    },
+    {
+      "Number": "130",
+      "Description": "Parapsychology and occultism"
+    },
+    {
+      "Number": "150",
+      "Description": "Psychology"
+    },
+    {
+      "Number": "170",
+      "Description": "Ethics (Moral philosophy)"
+    },
+    {
+      "Number": "210",
+      "Description": "Philosophy & theory of religion"
+    },
+    {
+      "Number": "220",
+      "Description": "The Bible"
+    },
+    {
+      "Number": "230",
+      "Description": "Christianity"
+    },
+    {
+      "Number": "260",
+      "Description": "Christian organization, social work & worship"
+    },
+    {
+      "Number": "290",
+      "Description": "Other religions"
+    },
+    {
+      "Number": "310",
+      "Description": "Statistics"
+    },
+    {
+      "Number": "340",
+      "Description": "Law"
+    },
+    {
+      "Number": "360",
+      "Description": "Social problems & social services"
+    },
+    {
+      "Number": "370",
+      "Description": "Education"
+    },
+    {
+      "Number": "390",
+      "Description": "Customs, etiquette & folklore"
+    },
+    {
+      "Number": "410",
+      "Description": "Linguistics"
+    },
+    {
+      "Number": "420",
+      "Description": "English & Old English languages"
+    },
+    {
+      "Number": "440",
+      "Description": "French & related languages"
+    },
+    {
+      "Number": "450",
+      "Description": "Italian, Romanian & related languages"
+    },
+    {
+      "Number": "460",
+      "Description": "Spanish, Portuguese, Galician"
+    },
+    {
+      "Number": "510",
+      "Description": "Mathematics"
+    },
+    {
+      "Number": "520",
+      "Description": "Astronomy"
+    },
+    {
+      "Number": "530",
+      "Description": "Physics"
+    },
+    {
+      "Number": "570",
+      "Description": "Biology"
+    },
+    {
+      "Number": "590",
+      "Description": "Animals (Zoology)"
+    },
+    {
+      "Number": "610",
+      "Description": "Medicine & health"
+    },
+    {
+      "Number": "620",
+      "Description": "Engineering"
+    },
+    {
+      "Number": "650",
+      "Description": "Management & public relations"
+    },
+    {
+      "Number": "660",
+      "Description": "Chemical engineering"
+    },
+    {
+      "Number": "690",
+      "Description": "Construction of buildings"
+    },
+    {
+      "Number": "710",
+      "Description": "Area planning & landscape architecture"
+    },
+    {
+      "Number": "740",
+      "Description": "Graphic arts & decorative arts"
+    },
+    {
+      "Number": "750",
+      "Description": "Painting"
+    },
+    {
+      "Number": "770",
+      "Description": "Photography, computer art, film, video"
+    },
+    {
+      "Number": "780",
+      "Description": "Music"
+    },
+    {
+      "Number": "810",
+      "Description": "American literature in English"
+    },
+    {
+      "Number": "820",
+      "Description": "English & Old English literatures"
+    },
+    {
+      "Number": "850",
+      "Description": "Italian, Romanian & related literatures"
+    },
+    {
+      "Number": "880",
+      "Description": "Classical & modern Greek literatures"
+    },
+    {
+      "Number": "890",
+      "Description": "Other literatures"
+    },
+    {
+      "Number": "910",
+      "Description": "Geography & travel"
+    },
+    {
+      "Number": "920",
+      "Description": "Biography & genealogy"
+    },
+    {
+      "Number": "940",
+      "Description": "History of Europe"
+    },
+    {
+      "Number": "970",
+      "Description": "History of North America"
+    },
+    {
+      "Number": "990",
+      "Description": "History of other areas"
+    }
+  ],
+  "Level3CallNumbers": [
+    {
+      "Number": "022",
+      "Description": "Administration of physical plant"
+    },
+    {
+      "Number": "023",
+      "Description": "Personnel management"
+    },
+    {
+      "Number": "051",
+      "Description": "General serial publications in American English"
+    },
+    {
+      "Number": "058",
+      "Description": "Serials in Scandinavian languages"
+    },
+    {
+      "Number": "062",
+      "Description": "General organizations in British Isles"
+    },
+    {
+      "Number": "066",
+      "Description": "General organizations in Spain"
+    },
+    {
+      "Number": "072",
+      "Description": "Journalism and newspapers in British Isles"
+    },
+    {
+      "Number": "075",
+      "Description": "Journalism and newspapers in Italy"
+    },
+    {
+      "Number": "094",
+      "Description": "Printed books"
+    },
+    {
+      "Number": "095",
+      "Description": "Books notable for bindings"
+    },
+    {
+      "Number": "115",
+      "Description": "Time"
+    },
+    {
+      "Number": "116",
+      "Description": "Change"
+    },
+    {
+      "Number": "122",
+      "Description": "Causation"
+    },
+    {
+      "Number": "124",
+      "Description": "Teleology"
+    },
+    {
+      "Number": "133",
+      "Description": "Specific topics in parapsychology & occultism"
+    },
+    {
+      "Number": "137",
+      "Description": "Divinatory graphology"
+    },
+    {
+      "Number": "156",
+      "Description": "Comparative psychology"
+    },
+    {
+      "Number": "158",
+      "Description": "Applied psychology"
+    },
+    {
+      "Number": "171",
+      "Description": "Ethical systems"
+    },
+    {
+      "Number": "176",
+      "Description": "Ethics of sex and reproduction"
+    },
+    {
+      "Number": "211",
+      "Description": "Concepts of God"
+    },
+    {
+      "Number": "213",
+      "Description": "Creation"
+    },
+    {
+      "Number": "221",
+      "Description": "Old Testament (Tanakh)"
+    },
+    {
+      "Number": "225",
+      "Description": "New Testament"
+    },
+    {
+      "Number": "231",
+      "Description": "God"
+    },
+    {
+      "Number": "234",
+      "Description": "Salvation and grace"
+    },
+    {
+      "Number": "264",
+      "Description": "Public worship"
+    },
+    {
+      "Number": "269",
+      "Description": "Spiritual renewal"
+    },
+    {
+      "Number": "296",
+      "Description": "Judaism"
+    },
+    {
+      "Number": "297",
+      "Description": "Islam, Babism & Bahai Faith"
+    },
+    {
+      "Number": "315",
+      "Description": "General statistics of Asia"
+    },
+    {
+      "Number": "319",
+      "Description": "General statistics of other areas"
+    },
+    {
+      "Number": "341",
+      "Description": "Law of nations"
+    },
+    {
+      "Number": "345",
+      "Description": "Criminal law"
+    },
+    {
+      "Number": "364",
+      "Description": "Criminology"
+    },
+    {
+      "Number": "368",
+      "Description": "Insurance"
+    },
+    {
+      "Number": "371",
+      "Description": "Schools and their activities; special education"
+    },
+    {
+      "Number": "378",
+      "Description": "Higher education (Tertiary education)"
+    },
+    {
+      "Number": "391",
+      "Description": "Costume and personal appearance"
+    },
+    {
+      "Number": "393",
+      "Description": "Death customs"
+    },
+    {
+      "Number": "412",
+      "Description": "Etymology"
+    },
+    {
+      "Number": "415",
+      "Description": "Grammar"
+    },
+    {
+      "Number": "422",
+      "Description": "Etymology of standard English"
+    },
+    {
+      "Number": "423",
+      "Description": "Dictionaries of standard English"
+    },
+    {
+      "Number": "445",
+      "Description": "Grammar of standard French"
+    },
+    {
+      "Number": "447",
+      "Description": "French language variations"
+    },
+    {
+      "Number": "451",
+      "Description": "Writing system, phonology, phonetics"
+    },
+    {
+      "Number": "458",
+      "Description": "Standard Italian usage"
+    },
+    {
+      "Number": "463",
+      "Description": "Dictionaries of standard Spanish"
+    },
+    {
+      "Number": "467",
+      "Description": "Spanish language variations"
+    },
+    {
+      "Number": "511",
+      "Description": "General principles of mathematics"
+    },
+    {
+      "Number": "516",
+      "Description": "Geometry"
+    },
+    {
+      "Number": "522",
+      "Description": "Techniques, equipment & materials"
+    },
+    {
+      "Number": "523",
+      "Description": "Specific celestial bodies and phenomena"
+    },
+    {
+      "Number": "531",
+      "Description": "Classical mechanics"
+    },
+    {
+      "Number": "535",
+      "Description": "Light and related radiation"
+    },
+    {
+      "Number": "571",
+      "Description": "Physiology & related subjects"
+    },
+    {
+      "Number": "576",
+      "Description": "Genetics and evolution"
+    },
+    {
+      "Number": "592",
+      "Description": "Invertebrates"
+    },
+    {
+      "Number": "595",
+      "Description": "Arthropoda"
+    },
+    {
+      "Number": "612",
+      "Description": "Human physiology"
+    },
+    {
+      "Number": "614",
+      "Description": "Forensic medicine; incidence of disease"
+    },
+    {
+      "Number": "621",
+      "Description": "Applied physics"
+    },
+    {
+      "Number": "624",
+      "Description": "Civil engineering"
+    },
+    {
+      "Number": "651",
+      "Description": "Office services"
+    },
+    {
+      "Number": "658",
+      "Description": "General management"
+    },
+    {
+      "Number": "662",
+      "Description": "Explosives, fuels & related products"
+    },
+    {
+      "Number": "664",
+      "Description": "Food technology"
+    },
+    {
+      "Number": "691",
+      "Description": "Building materials"
+    },
+    {
+      "Number": "694",
+      "Description": "Wood construction"
+    },
+    {
+      "Number": "711",
+      "Description": "Area planning (Civic art)"
+    },
+    {
+      "Number": "714",
+      "Description": "Water features in landscape architecture"
+    },
+    {
+      "Number": "741",
+      "Description": "Drawing and drawings"
+    },
+    {
+      "Number": "748",
+      "Description": "Glass"
+    },
+    {
+      "Number": "752",
+      "Description": "Colour"
+    },
+    {
+      "Number": "757",
+      "Description": "Human figures"
+    },
+    {
+      "Number": "772",
+      "Description": "Metallic salt processes"
+    },
+    {
+      "Number": "776",
+      "Description": "Computer art (Digital art)"
+    },
+    {
+      "Number": "782",
+      "Description": "Vocal music"
+    },
+    {
+      "Number": "788",
+      "Description": "Wind instruments (Aerophones)"
+    },
+    {
+      "Number": "811",
+      "Description": "American poetry in English"
+    },
+    {
+      "Number": "813",
+      "Description": "American fiction in English"
+    },
+    {
+      "Number": "821",
+      "Description": "English poetry"
+    },
+    {
+      "Number": "829",
+      "Description": "Old English (Anglo-Saxon) literature"
+    },
+    {
+      "Number": "852",
+      "Description": "Italian drama"
+    },
+    {
+      "Number": "856",
+      "Description": "Italian letters"
+    },
+    {
+      "Number": "884",
+      "Description": "Classical Greek lyric poetry"
+    },
+    {
+      "Number": "886",
+      "Description": "Classical Greek letters"
+    },
+    {
+      "Number": "892",
+      "Description": "Afro-Asiatic literatures"
+    },
+    {
+      "Number": "896",
+      "Description": "African literatures"
+    },
+    {
+      "Number": "911",
+      "Description": "Historical geography"
+    },
+    {
+      "Number": "912",
+      "Description": "Maps and plans of surface of earth"
+    },
+    {
+      "Number": "929",
+      "Description": "Genealogy, names & insignia"
+    },
+    {
+      "Number": "942",
+      "Description": "England and Wales"
+    },
+    {
+      "Number": "943",
+      "Description": "Germany & central Europe"
+    },
+    {
+      "Number": "944",
+      "Description": "France and Monaco"
+    },
+    {
+      "Number": "972",
+      "Description": "Mexico, Central America, West Indies"
+    },
+    {
+      "Number": "978",
+      "Description": "Western United States"
+    },
+    {
+      "Number": "994",
+      "Description": "Australia"
+    },
+    {
+      "Number": "999",
+      "Description": "Extra-terrestrial worlds"
+    }
+  ]
+}

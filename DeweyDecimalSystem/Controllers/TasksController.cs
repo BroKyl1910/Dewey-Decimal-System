@@ -19,5 +19,11 @@ namespace DeweyDecimalSystem.Controllers
 
             return View();
         }
+
+        public IActionResult FindingCallNumbers()
+        {
+
+            return View();
+        }
     }
 }

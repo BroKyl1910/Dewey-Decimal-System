@@ -505,6 +505,207 @@ body {
     }
 }
 
+
+.finding-call-numbers-container {
+    width: 100%;
+    /*margin-top: 100px;*/
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px $primary-color-dark;
+    border: 1px solid $primary-color-dark;
+
+    .header-wrapper {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+        .header-left {
+            flex-basis: 70%;
+        }
+
+        .header-right {
+            flex-basis: 30%;
+            display: flex;
+            flex-direction: row-reverse;
+
+            .timer-wrapper {
+                height: 75px;
+                width: 75px;
+                border-radius: 50%;
+                padding: 20px;
+                border: 1px solid #ed6663;
+                background: #ffa372;
+                color: white;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                .timer-text {
+                    display: none;
+                    font-size: 1.4em;
+                }
+
+                .play-button {
+                    font-size: 1.4em;
+
+                    &:hover {
+                        color: rgba(255,255,255,0.8);
+                        cursor: pointer;
+                    }
+                }
+            }
+
+            .endgame-controls-wrapper {
+                height: 75px;
+                display: flex;
+                flex-direction: row-reverse;
+                justify-content: center;
+                align-items: center;
+                display: none;
+
+                .endgame-control {
+                    border-radius: 5px;
+                    padding: 20px;
+                    margin-left: 5px;
+                    flex-basis: 75px;
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    justify-content: center;
+
+                    &:hover {
+                        text-decoration: none;
+                    }
+
+                    .control-icon {
+                        color: white;
+                        font-size: 1.4em;
+
+                        &:hover {
+                            cursor: pointer;
+                        }
+                    }
+                }
+
+                .endgame-control.next {
+                    background: $primary-color-light;
+                    box-shadow: 2px 2px 2px $primary-color-dark;
+                    border: 1px solid $primary-color-dark;
+
+                    &:hover {
+                        background: darken($primary-color-light, 5);
+                    }
+                }
+
+                .endgame-control.leaderboard {
+                    background: $accent-color-light;
+                    box-shadow: 2px 2px 2px $accent-color-dark;
+                    border: 1px solid $accent-color-dark;
+
+                    &:hover {
+                        background: darken($accent-color-light, 5);
+                    }
+                }
+            }
+        }
+    }
+
+
+    .instructions {
+        font-size: 1.2em;
+    }
+
+    .top-call-number-wrapper {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 30px;
+        margin-bottom: 50px;
+    }
+
+    .top-call-number-container {
+        background: $accent-color-light;
+        box-shadow: 2px 2px 2px #ed6663;
+        color: white;
+        padding: 15px;
+        border-radius: 5px;
+    }
+
+    .top-call-number {
+        color: white;
+        font-size: 2.0em;
+        text-shadow: 2px 2px rgba(0, 0, 0, 0.1);
+        user-select: none;
+    }
+
+    .question-text {
+        font-size: 1.2em;
+        background: lighten($accent-color-light, 0);
+        box-shadow: 2px 2px 2px $accent-color-dark;
+        color: white;
+        padding: 10px;
+        border-radius: 5px;
+    }
+
+    .answer-list {
+        margin-top: 20px;
+        list-style: none;
+        padding-left: 0;
+
+        .answer-list-item {
+            background: $primary-color-light;
+            box-shadow: 2px 2px 2px $primary-color-dark;
+            padding: 15px;
+            border-radius: 5px;
+            /*width: 50%;*/
+            margin: 10px auto;
+
+            &:hover {
+                background: darken($primary-color-light, 5);
+                cursor: pointer;
+            }
+
+            .answer-text {
+                color: white;
+                font-size: 1.4em;
+                text-shadow: 2px 2px rgba(0, 0, 0, 0.1);
+                margin-left: 30px;
+                user-select: none;
+            }
+        }
+
+        .answer-list-item.correct {
+            background: #6baf44;
+            box-shadow: 2px 2px 2px darken(#6baf44, 10);
+        }
+
+        .answer-list-item.incorrect {
+            background: #ed5a70;
+            box-shadow: 2px 2px 2px darken(#ed5a70, 10);
+        }
+    }
+
+
+
+    .progress-bar-wrapper {
+        margin-top: 30px;
+        height: 40px;
+        width: 100%;
+        border: 1px solid rgba(0,0,0,0.2);
+        border-radius: 20px;
+        box-shadow: 0px 0px 5px $accent-color-light;
+
+        .custom-progress-bar {
+            width: 0%;
+            height: 100%;
+            background-color: $accent-color-dark;
+            border-radius: 20px;
+            transition: width 1s ease;
+        }
+    }
+}
+
 .popup-container {
     display: none;
     position: fixed;
