@@ -22,6 +22,11 @@ namespace DeweyDecimalSystem.Controllers
             return View();
         }
 
+        public IActionResult FindingCallNumbers()
+        {
+            return View();
+        }
+
         public string IdentifyingAreasLeaderboardData()
         {
             List<ScoreRecord> scores = getScoresFromFile(FileURLHelper.IDENTIFYING_AREAS_SCORE_FILE_URL);
@@ -33,6 +38,13 @@ namespace DeweyDecimalSystem.Controllers
         {
             List<ScoreRecord> scores = getScoresFromFile(FileURLHelper.REPLACING_BOOKS_SCORE_FILE_URL);
             scores = scores.OrderBy(s => s.Score).ThenBy(s => s.Name).ToList();
+            return JsonConvert.SerializeObject(scores);
+        }
+
+        public string FindingCallNumbersLeaderboardData()
+        {
+            List<ScoreRecord> scores = getScoresFromFile(FileURLHelper.FINDING_CALL_NUMBERS_SCORE_FILE_URL);
+            scores = scores.OrderByDescending(s => s.Score).ThenBy(s => s.Name).ToList();
             return JsonConvert.SerializeObject(scores);
         }
 

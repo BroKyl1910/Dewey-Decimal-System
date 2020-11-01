@@ -7,26 +7,26 @@
         {
           "Data": {
             "Number": "000",
-            "Description": "Computer science, information & general works"
+            "Name": "Computer Science, Information & General Works"
           },
           "Children": [
             {
               "Data": {
                 "Number": "020",
-                "Description": "Library & information sciences"
+                "Name": "Library & Information Sciences"
               },
               "Children": [
                 {
                   "Data": {
                     "Number": "022",
-                    "Description": "Administration of physical plant"
+                    "Name": "Administration of Physical Plant"
                   },
                   "Children": []
                 },
                 {
                   "Data": {
                     "Number": "023",
-                    "Description": "Personnel management"
+                    "Name": "Personnel Management"
                   },
                   "Children": []
                 }
@@ -35,20 +35,20 @@
             {
               "Data": {
                 "Number": "050",
-                "Description": "Magazines, journals & serials"
+                "Name": "Magazines, Journals & Serials"
               },
               "Children": [
                 {
                   "Data": {
                     "Number": "051",
-                    "Description": "General serial publications in American English"
+                    "Name": "General Serial Publications in American English"
                   },
                   "Children": []
                 },
                 {
                   "Data": {
                     "Number": "058",
-                    "Description": "Serials in Scandinavian languages"
+                    "Name": "Serials in Scandinavian Languages"
                   },
                   "Children": []
                 }
@@ -57,20 +57,20 @@
             {
               "Data": {
                 "Number": "060",
-                "Description": "Associations, organizations & museums"
+                "Name": "Associations, Organizations & Museums"
               },
               "Children": [
                 {
                   "Data": {
                     "Number": "062",
-                    "Description": "General organizations in British Isles"
+                    "Name": "General Organizations in British Isles"
                   },
                   "Children": []
                 },
                 {
                   "Data": {
                     "Number": "066",
-                    "Description": "General organizations in Spain"
+                    "Name": "General Organizations in Spain"
                   },
                   "Children": []
                 }
@@ -79,20 +79,20 @@
             {
               "Data": {
                 "Number": "070",
-                "Description": "News media, journalism & publishing"
+                "Name": "News Media, Journalism & Publishing"
               },
               "Children": [
                 {
                   "Data": {
                     "Number": "072",
-                    "Description": "Journalism and newspapers in British Isles"
+                    "Name": "Journalism and Newspapers in British Isles"
                   },
                   "Children": []
                 },
                 {
                   "Data": {
                     "Number": "075",
-                    "Description": "Journalism and newspapers in Italy"
+                    "Name": "Journalism and Newspapers in Italy"
                   },
                   "Children": []
                 }
@@ -101,20 +101,20 @@
             {
               "Data": {
                 "Number": "090",
-                "Description": "Manuscripts, rare books"
+                "Name": "Manuscripts, Rare Books"
               },
               "Children": [
                 {
                   "Data": {
                     "Number": "094",
-                    "Description": "Printed books"
+                    "Name": "Printed Books"
                   },
                   "Children": []
                 },
                 {
                   "Data": {
                     "Number": "095",
-                    "Description": "Books notable for bindings"
+                    "Name": "Books Notable for Bindings"
                   },
                   "Children": []
                 }
@@ -125,26 +125,26 @@
         {
           "Data": {
             "Number": "100",
-            "Description": "Philosophy & psychology"
+            "Name": "Philosophy & Psychology"
           },
           "Children": [
             {
               "Data": {
                 "Number": "110",
-                "Description": "Metaphysics"
+                "Name": "Metaphysics"
               },
               "Children": [
                 {
                   "Data": {
                     "Number": "115",
-                    "Description": "Time"
+                    "Name": "Time"
                   },
                   "Children": []
                 },
                 {
                   "Data": {
                     "Number": "116",
-                    "Description": "Change"
+                    "Name": "Change"
                   },
                   "Children": []
                 }
@@ -153,20 +153,20 @@
             {
               "Data": {
                 "Number": "120",
-                "Description": "Epistemology"
+                "Name": "Epistemology"
               },
               "Children": [
                 {
                   "Data": {
                     "Number": "122",
-                    "Description": "Causation"
+                    "Name": "Causation"
                   },
                   "Children": []
                 },
                 {
                   "Data": {
                     "Number": "124",
-                    "Description": "Teleology"
+                    "Name": "Teleology"
                   },
                   "Children": []
                 }
@@ -175,20 +175,20 @@
             {
               "Data": {
                 "Number": "130",
-                "Description": "Parapsychology and occultism"
+                "Name": "Parapsychology and Occultism"
               },
               "Children": [
                 {
                   "Data": {
                     "Number": "133",
-                    "Description": "Specific topics in parapsychology & occultism"
+                    "Name": "Specific Topics in Parapsychology & Occultism"
                   },
                   "Children": []
                 },
                 {
                   "Data": {
                     "Number": "137",
-                    "Description": "Divinatory graphology"
+                    "Name": "Divinatory Graphology"
                   },
                   "Children": []
                 }
@@ -197,20 +197,20 @@
             {
               "Data": {
                 "Number": "150",
-                "Description": "Psychology"
+                "Name": "Psychology"
               },
               "Children": [
                 {
                   "Data": {
                     "Number": "156",
-                    "Description": "Comparative psychology"
+                    "Name": "Comparative Psychology"
                   },
                   "Children": []
                 },
                 {
                   "Data": {
                     "Number": "158",
-                    "Description": "Applied psychology"
+                    "Name": "Applied Psychology"
                   },
                   "Children": []
                 }
@@ -219,20 +219,20 @@
             {
               "Data": {
                 "Number": "170",
-                "Description": "Ethics (Moral philosophy)"
+                "Name": "Ethics (Moral Philosophy)"
               },
               "Children": [
                 {
                   "Data": {
                     "Number": "171",
-                    "Description": "Ethical systems"
+                    "Name": "Ethical Systems"
                   },
                   "Children": []
                 },
                 {
                   "Data": {
                     "Number": "176",
-                    "Description": "Ethics of sex and reproduction"
+                    "Name": "Ethics of Sex and Reproduction"
                   },
                   "Children": []
                 }
@@ -243,26 +243,26 @@
         {
           "Data": {
             "Number": "200",
-            "Description": "Religion"
+            "Name": "Religion"
           },
           "Children": [
             {
               "Data": {
                 "Number": "210",
-                "Description": "Philosophy & theory of religion"
+                "Name": "Philosophy & Theory of Religion"
               },
               "Children": [
                 {
                   "Data": {
                     "Number": "211",
-                    "Description": "Concepts of God"
+                    "Name": "Concepts of God"
                   },
                   "Children": []
                 },
                 {
                   "Data": {
                     "Number": "213",
-                    "Description": "Creation"
+                    "Name": "Creation"
                   },
                   "Children": []
                 }
@@ -271,20 +271,20 @@
             {
               "Data": {
                 "Number": "220",
-                "Description": "The Bible"
+                "Name": "The Bible"
               },
               "Children": [
                 {
                   "Data": {
                     "Number": "221",
-                    "Description": "Old Testament (Tanakh)"
+                    "Name": "Old Testament (Tanakh)"
                   },
                   "Children": []
                 },
                 {
                   "Data": {
                     "Number": "225",
-                    "Description": "New Testament"
+                    "Name": "New Testament"
                   },
                   "Children": []
                 }
@@ -293,20 +293,20 @@
             {
               "Data": {
                 "Number": "230",
-                "Description": "Christianity"
+                "Name": "Christianity"
               },
               "Children": [
                 {
                   "Data": {
                     "Number": "231",
-                    "Description": "God"
+                    "Name": "God"
                   },
                   "Children": []
                 },
                 {
                   "Data": {
                     "Number": "234",
-                    "Description": "Salvation and grace"
+                    "Name": "Salvation and Grace"
                   },
                   "Children": []
                 }
@@ -315,20 +315,20 @@
             {
               "Data": {
                 "Number": "260",
-                "Description": "Christian organization, social work & worship"
+                "Name": "Christian Organization, Social Work & Worship"
               },
               "Children": [
                 {
                   "Data": {
                     "Number": "264",
-                    "Description": "Public worship"
+                    "Name": "Public Worship"
                   },
                   "Children": []
                 },
                 {
                   "Data": {
                     "Number": "269",
-                    "Description": "Spiritual renewal"
+                    "Name": "Spiritual Renewal"
                   },
                   "Children": []
                 }
@@ -337,20 +337,20 @@
             {
               "Data": {
                 "Number": "290",
-                "Description": "Other religions"
+                "Name": "Other Religions"
               },
               "Children": [
                 {
                   "Data": {
                     "Number": "296",
-                    "Description": "Judaism"
+                    "Name": "Judaism"
                   },
                   "Children": []
                 },
                 {
                   "Data": {
                     "Number": "297",
-                    "Description": "Islam, Babism & Bahai Faith"
+                    "Name": "Islam, Babism & Bahai Faith"
                   },
                   "Children": []
                 }
@@ -361,26 +361,26 @@
         {
           "Data": {
             "Number": "300",
-            "Description": "Social sciences"
+            "Name": "Social Sciences"
           },
           "Children": [
             {
               "Data": {
                 "Number": "310",
-                "Description": "Statistics"
+                "Name": "Statistics"
               },
               "Children": [
                 {
                   "Data": {
                     "Number": "315",
-                    "Description": "General statistics of Asia"
+                    "Name": "General Statistics of Asia"
                   },
                   "Children": []
                 },
                 {
                   "Data": {
                     "Number": "319",
-                    "Description": "General statistics of other areas"
+                    "Name": "General Statistics of Other Areas"
                   },
                   "Children": []
                 }
@@ -389,20 +389,20 @@
             {
               "Data": {
                 "Number": "340",
-                "Description": "Law"
+                "Name": "Law"
               },
               "Children": [
                 {
                   "Data": {
                     "Number": "341",
-                    "Description": "Law of nations"
+                    "Name": "Law of Nations"
                   },
                   "Children": []
                 },
                 {
                   "Data": {
                     "Number": "345",
-                    "Description": "Criminal law"
+                    "Name": "Criminal Law"
                   },
                   "Children": []
                 }
@@ -411,20 +411,20 @@
             {
               "Data": {
                 "Number": "360",
-                "Description": "Social problems & social services"
+                "Name": "Social Problems & Social Services"
               },
               "Children": [
                 {
                   "Data": {
                     "Number": "364",
-                    "Description": "Criminology"
+                    "Name": "Criminology"
                   },
                   "Children": []
                 },
                 {
                   "Data": {
                     "Number": "368",
-                    "Description": "Insurance"
+                    "Name": "Insurance"
                   },
                   "Children": []
                 }
@@ -433,20 +433,20 @@
             {
               "Data": {
                 "Number": "370",
-                "Description": "Education"
+                "Name": "Education"
               },
               "Children": [
                 {
                   "Data": {
                     "Number": "371",
-                    "Description": "Schools and their activities; special education"
+                    "Name": "Schools and Their Activities; Special Education"
                   },
                   "Children": []
                 },
                 {
                   "Data": {
                     "Number": "378",
-                    "Description": "Higher education (Tertiary education)"
+                    "Name": "Higher Education (Tertiary Education)"
                   },
                   "Children": []
                 }
@@ -455,20 +455,20 @@
             {
               "Data": {
                 "Number": "390",
-                "Description": "Customs, etiquette & folklore"
+                "Name": "Customs, Etiquette & Folklore"
               },
               "Children": [
                 {
                   "Data": {
                     "Number": "391",
-                    "Description": "Costume and personal appearance"
+                    "Name": "Costume and Personal Appearance"
                   },
                   "Children": []
                 },
                 {
                   "Data": {
                     "Number": "393",
-                    "Description": "Death customs"
+                    "Name": "Death Customs"
                   },
                   "Children": []
                 }
@@ -479,26 +479,26 @@
         {
           "Data": {
             "Number": "400",
-            "Description": "Language"
+            "Name": "Language"
           },
           "Children": [
             {
               "Data": {
                 "Number": "410",
-                "Description": "Linguistics"
+                "Name": "Linguistics"
               },
               "Children": [
                 {
                   "Data": {
                     "Number": "412",
-                    "Description": "Etymology"
+                    "Name": "Etymology"
                   },
                   "Children": []
                 },
                 {
                   "Data": {
                     "Number": "415",
-                    "Description": "Grammar"
+                    "Name": "Grammar"
                   },
                   "Children": []
                 }
@@ -507,20 +507,20 @@
             {
               "Data": {
                 "Number": "420",
-                "Description": "English & Old English languages"
+                "Name": "English & Old English Languages"
               },
               "Children": [
                 {
                   "Data": {
                     "Number": "422",
-                    "Description": "Etymology of standard English"
+                    "Name": "Etymology of Standard English"
                   },
                   "Children": []
                 },
                 {
                   "Data": {
                     "Number": "423",
-                    "Description": "Dictionaries of standard English"
+                    "Name": "Dictionaries of Standard English"
                   },
                   "Children": []
                 }
@@ -529,20 +529,20 @@
             {
               "Data": {
                 "Number": "440",
-                "Description": "French & related languages"
+                "Name": "French & Related Languages"
               },
               "Children": [
                 {
                   "Data": {
                     "Number": "445",
-                    "Description": "Grammar of standard French"
+                    "Name": "Grammar of Standard French"
                   },
                   "Children": []
                 },
                 {
                   "Data": {
                     "Number": "447",
-                    "Description": "French language variations"
+                    "Name": "French Language Variations"
                   },
                   "Children": []
                 }
@@ -551,20 +551,20 @@
             {
               "Data": {
                 "Number": "450",
-                "Description": "Italian, Romanian & related languages"
+                "Name": "Italian, Romanian & Related Languages"
               },
               "Children": [
                 {
                   "Data": {
                     "Number": "451",
-                    "Description": "Writing system, phonology, phonetics"
+                    "Name": "Writing System, Phonology, Phonetics"
                   },
                   "Children": []
                 },
                 {
                   "Data": {
                     "Number": "458",
-                    "Description": "Standard Italian usage"
+                    "Name": "Standard Italian Usage"
                   },
                   "Children": []
                 }
@@ -573,20 +573,20 @@
             {
               "Data": {
                 "Number": "460",
-                "Description": "Spanish, Portuguese, Galician"
+                "Name": "Spanish, Portuguese, Galician"
               },
               "Children": [
                 {
                   "Data": {
                     "Number": "463",
-                    "Description": "Dictionaries of standard Spanish"
+                    "Name": "Dictionaries of Standard Spanish"
                   },
                   "Children": []
                 },
                 {
                   "Data": {
                     "Number": "467",
-                    "Description": "Spanish language variations"
+                    "Name": "Spanish Language Variations"
                   },
                   "Children": []
                 }
@@ -597,26 +597,26 @@
         {
           "Data": {
             "Number": "500",
-            "Description": "Pure science"
+            "Name": "Pure Science"
           },
           "Children": [
             {
               "Data": {
                 "Number": "510",
-                "Description": "Mathematics"
+                "Name": "Mathematics"
               },
               "Children": [
                 {
                   "Data": {
                     "Number": "511",
-                    "Description": "General principles of mathematics"
+                    "Name": "General Principles of Mathematics"
                   },
                   "Children": []
                 },
                 {
                   "Data": {
                     "Number": "516",
-                    "Description": "Geometry"
+                    "Name": "Geometry"
                   },
                   "Children": []
                 }
@@ -625,20 +625,20 @@
             {
               "Data": {
                 "Number": "520",
-                "Description": "Astronomy"
+                "Name": "Astronomy"
               },
               "Children": [
                 {
                   "Data": {
                     "Number": "522",
-                    "Description": "Techniques, equipment & materials"
+                    "Name": "Techniques, Equipment & Materials"
                   },
                   "Children": []
                 },
                 {
                   "Data": {
                     "Number": "523",
-                    "Description": "Specific celestial bodies and phenomena"
+                    "Name": "Specific Celestial Bodies and Phenomena"
                   },
                   "Children": []
                 }
@@ -647,20 +647,20 @@
             {
               "Data": {
                 "Number": "530",
-                "Description": "Physics"
+                "Name": "Physics"
               },
               "Children": [
                 {
                   "Data": {
                     "Number": "531",
-                    "Description": "Classical mechanics"
+                    "Name": "Classical Mechanics"
                   },
                   "Children": []
                 },
                 {
                   "Data": {
                     "Number": "535",
-                    "Description": "Light and related radiation"
+                    "Name": "Light and Related Radiation"
                   },
                   "Children": []
                 }
@@ -669,20 +669,20 @@
             {
               "Data": {
                 "Number": "570",
-                "Description": "Biology"
+                "Name": "Biology"
               },
               "Children": [
                 {
                   "Data": {
                     "Number": "571",
-                    "Description": "Physiology & related subjects"
+                    "Name": "Physiology & Related Subjects"
                   },
                   "Children": []
                 },
                 {
                   "Data": {
                     "Number": "576",
-                    "Description": "Genetics and evolution"
+                    "Name": "Genetics and Evolution"
                   },
                   "Children": []
                 }
@@ -691,20 +691,20 @@
             {
               "Data": {
                 "Number": "590",
-                "Description": "Animals (Zoology)"
+                "Name": "Animals (Zoology)"
               },
               "Children": [
                 {
                   "Data": {
                     "Number": "592",
-                    "Description": "Invertebrates"
+                    "Name": "Invertebrates"
                   },
                   "Children": []
                 },
                 {
                   "Data": {
                     "Number": "595",
-                    "Description": "Arthropoda"
+                    "Name": "Arthropoda"
                   },
                   "Children": []
                 }
@@ -715,26 +715,26 @@
         {
           "Data": {
             "Number": "600",
-            "Description": "Technology"
+            "Name": "Technology"
           },
           "Children": [
             {
               "Data": {
                 "Number": "610",
-                "Description": "Medicine & health"
+                "Name": "Medicine & Health"
               },
               "Children": [
                 {
                   "Data": {
                     "Number": "612",
-                    "Description": "Human physiology"
+                    "Name": "Human Physiology"
                   },
                   "Children": []
                 },
                 {
                   "Data": {
                     "Number": "614",
-                    "Description": "Forensic medicine; incidence of disease"
+                    "Name": "Forensic Medicine; Incidence of Disease"
                   },
                   "Children": []
                 }
@@ -743,20 +743,20 @@
             {
               "Data": {
                 "Number": "620",
-                "Description": "Engineering"
+                "Name": "Engineering"
               },
               "Children": [
                 {
                   "Data": {
                     "Number": "621",
-                    "Description": "Applied physics"
+                    "Name": "Applied Physics"
                   },
                   "Children": []
                 },
                 {
                   "Data": {
                     "Number": "624",
-                    "Description": "Civil engineering"
+                    "Name": "Civil Engineering"
                   },
                   "Children": []
                 }
@@ -765,20 +765,20 @@
             {
               "Data": {
                 "Number": "650",
-                "Description": "Management & public relations"
+                "Name": "Management & Public Relations"
               },
               "Children": [
                 {
                   "Data": {
                     "Number": "651",
-                    "Description": "Office services"
+                    "Name": "Office Services"
                   },
                   "Children": []
                 },
                 {
                   "Data": {
                     "Number": "658",
-                    "Description": "General management"
+                    "Name": "General Management"
                   },
                   "Children": []
                 }
@@ -787,20 +787,20 @@
             {
               "Data": {
                 "Number": "660",
-                "Description": "Chemical engineering"
+                "Name": "Chemical Engineering"
               },
               "Children": [
                 {
                   "Data": {
                     "Number": "662",
-                    "Description": "Explosives, fuels & related products"
+                    "Name": "Explosives, Fuels & Related Products"
                   },
                   "Children": []
                 },
                 {
                   "Data": {
                     "Number": "664",
-                    "Description": "Food technology"
+                    "Name": "Food Technology"
                   },
                   "Children": []
                 }
@@ -809,20 +809,20 @@
             {
               "Data": {
                 "Number": "690",
-                "Description": "Construction of buildings"
+                "Name": "Construction of Buildings"
               },
               "Children": [
                 {
                   "Data": {
                     "Number": "691",
-                    "Description": "Building materials"
+                    "Name": "Building Materials"
                   },
                   "Children": []
                 },
                 {
                   "Data": {
                     "Number": "694",
-                    "Description": "Wood construction"
+                    "Name": "Wood Construction"
                   },
                   "Children": []
                 }
@@ -833,26 +833,26 @@
         {
           "Data": {
             "Number": "700",
-            "Description": "Arts & recreation"
+            "Name": "Arts & Recreation"
           },
           "Children": [
             {
               "Data": {
                 "Number": "710",
-                "Description": "Area planning & landscape architecture"
+                "Name": "Area Planning & Landscape Architecture"
               },
               "Children": [
                 {
                   "Data": {
                     "Number": "711",
-                    "Description": "Area planning (Civic art)"
+                    "Name": "Area Planning (Civic Art)"
                   },
                   "Children": []
                 },
                 {
                   "Data": {
                     "Number": "714",
-                    "Description": "Water features in landscape architecture"
+                    "Name": "Water Features in Landscape Architecture"
                   },
                   "Children": []
                 }
@@ -861,20 +861,20 @@
             {
               "Data": {
                 "Number": "740",
-                "Description": "Graphic arts & decorative arts"
+                "Name": "Graphic Arts & Decorative Arts"
               },
               "Children": [
                 {
                   "Data": {
                     "Number": "741",
-                    "Description": "Drawing and drawings"
+                    "Name": "Drawing and Drawings"
                   },
                   "Children": []
                 },
                 {
                   "Data": {
                     "Number": "748",
-                    "Description": "Glass"
+                    "Name": "Glass"
                   },
                   "Children": []
                 }
@@ -883,20 +883,20 @@
             {
               "Data": {
                 "Number": "750",
-                "Description": "Painting"
+                "Name": "Painting"
               },
               "Children": [
                 {
                   "Data": {
                     "Number": "752",
-                    "Description": "Colour"
+                    "Name": "Colour"
                   },
                   "Children": []
                 },
                 {
                   "Data": {
                     "Number": "757",
-                    "Description": "Human figures"
+                    "Name": "Human Figures"
                   },
                   "Children": []
                 }
@@ -905,20 +905,20 @@
             {
               "Data": {
                 "Number": "770",
-                "Description": "Photography, computer art, film, video"
+                "Name": "Photography, Computer Art, Film, Video"
               },
               "Children": [
                 {
                   "Data": {
                     "Number": "772",
-                    "Description": "Metallic salt processes"
+                    "Name": "Metallic Salt Processes"
                   },
                   "Children": []
                 },
                 {
                   "Data": {
                     "Number": "776",
-                    "Description": "Computer art (Digital art)"
+                    "Name": "Computer Art (Digital Art)"
                   },
                   "Children": []
                 }
@@ -927,20 +927,20 @@
             {
               "Data": {
                 "Number": "780",
-                "Description": "Music"
+                "Name": "Music"
               },
               "Children": [
                 {
                   "Data": {
                     "Number": "782",
-                    "Description": "Vocal music"
+                    "Name": "Vocal Music"
                   },
                   "Children": []
                 },
                 {
                   "Data": {
                     "Number": "788",
-                    "Description": "Wind instruments (Aerophones)"
+                    "Name": "Wind Instruments (Aerophones)"
                   },
                   "Children": []
                 }
@@ -951,26 +951,26 @@
         {
           "Data": {
             "Number": "800",
-            "Description": "Literature"
+            "Name": "Literature"
           },
           "Children": [
             {
               "Data": {
                 "Number": "810",
-                "Description": "American literature in English"
+                "Name": "American Literature in English"
               },
               "Children": [
                 {
                   "Data": {
                     "Number": "811",
-                    "Description": "American poetry in English"
+                    "Name": "American Poetry in English"
                   },
                   "Children": []
                 },
                 {
                   "Data": {
                     "Number": "813",
-                    "Description": "American fiction in English"
+                    "Name": "American Fiction in English"
                   },
                   "Children": []
                 }
@@ -979,20 +979,20 @@
             {
               "Data": {
                 "Number": "820",
-                "Description": "English & Old English literatures"
+                "Name": "English & Old English Literatures"
               },
               "Children": [
                 {
                   "Data": {
                     "Number": "821",
-                    "Description": "English poetry"
+                    "Name": "English Poetry"
                   },
                   "Children": []
                 },
                 {
                   "Data": {
                     "Number": "829",
-                    "Description": "Old English (Anglo-Saxon) literature"
+                    "Name": "Old English (Anglo-Saxon) Literature"
                   },
                   "Children": []
                 }
@@ -1001,20 +1001,20 @@
             {
               "Data": {
                 "Number": "850",
-                "Description": "Italian, Romanian & related literatures"
+                "Name": "Italian, Romanian & Related Literatures"
               },
               "Children": [
                 {
                   "Data": {
                     "Number": "852",
-                    "Description": "Italian drama"
+                    "Name": "Italian Drama"
                   },
                   "Children": []
                 },
                 {
                   "Data": {
                     "Number": "856",
-                    "Description": "Italian letters"
+                    "Name": "Italian Letters"
                   },
                   "Children": []
                 }
@@ -1023,20 +1023,20 @@
             {
               "Data": {
                 "Number": "880",
-                "Description": "Classical & modern Greek literatures"
+                "Name": "Classical & Modern Greek Literatures"
               },
               "Children": [
                 {
                   "Data": {
                     "Number": "884",
-                    "Description": "Classical Greek lyric poetry"
+                    "Name": "Classical Greek Lyric Poetry"
                   },
                   "Children": []
                 },
                 {
                   "Data": {
                     "Number": "886",
-                    "Description": "Classical Greek letters"
+                    "Name": "Classical Greek Letters"
                   },
                   "Children": []
                 }
@@ -1045,20 +1045,20 @@
             {
               "Data": {
                 "Number": "890",
-                "Description": "Other literatures"
+                "Name": "Other Literatures"
               },
               "Children": [
                 {
                   "Data": {
                     "Number": "892",
-                    "Description": "Afro-Asiatic literatures"
+                    "Name": "Afro-Asiatic Literatures"
                   },
                   "Children": []
                 },
                 {
                   "Data": {
                     "Number": "896",
-                    "Description": "African literatures"
+                    "Name": "African Literatures"
                   },
                   "Children": []
                 }
@@ -1069,26 +1069,26 @@
         {
           "Data": {
             "Number": "900",
-            "Description": "History & geography"
+            "Name": "History & Geography"
           },
           "Children": [
             {
               "Data": {
                 "Number": "910",
-                "Description": "Geography & travel"
+                "Name": "Geography & Travel"
               },
               "Children": [
                 {
                   "Data": {
                     "Number": "911",
-                    "Description": "Historical geography"
+                    "Name": "Historical Geography"
                   },
                   "Children": []
                 },
                 {
                   "Data": {
                     "Number": "912",
-                    "Description": "Maps and plans of surface of earth"
+                    "Name": "Maps and Plans of Surface of Earth"
                   },
                   "Children": []
                 }
@@ -1097,13 +1097,13 @@
             {
               "Data": {
                 "Number": "920",
-                "Description": "Biography & genealogy"
+                "Name": "Biography & Genealogy"
               },
               "Children": [
                 {
                   "Data": {
                     "Number": "929",
-                    "Description": "Genealogy, names & insignia"
+                    "Name": "Genealogy, Names & Insignia"
                   },
                   "Children": []
                 }
@@ -1112,27 +1112,27 @@
             {
               "Data": {
                 "Number": "940",
-                "Description": "History of Europe"
+                "Name": "History of Europe"
               },
               "Children": [
                 {
                   "Data": {
                     "Number": "942",
-                    "Description": "England and Wales"
+                    "Name": "England And Wales"
                   },
                   "Children": []
                 },
                 {
                   "Data": {
                     "Number": "943",
-                    "Description": "Germany & central Europe"
+                    "Name": "Germany & Central Europe"
                   },
                   "Children": []
                 },
                 {
                   "Data": {
                     "Number": "944",
-                    "Description": "France and Monaco"
+                    "Name": "France And Monaco"
                   },
                   "Children": []
                 }
@@ -1141,20 +1141,20 @@
             {
               "Data": {
                 "Number": "970",
-                "Description": "History of North America"
+                "Name": "History of North America"
               },
               "Children": [
                 {
                   "Data": {
                     "Number": "972",
-                    "Description": "Mexico, Central America, West Indies"
+                    "Name": "Mexico, Central America, West Indies"
                   },
                   "Children": []
                 },
                 {
                   "Data": {
                     "Number": "978",
-                    "Description": "Western United States"
+                    "Name": "Western United States"
                   },
                   "Children": []
                 }
@@ -1163,20 +1163,20 @@
             {
               "Data": {
                 "Number": "990",
-                "Description": "History of other areas"
+                "Name": "History of Other Areas"
               },
               "Children": [
                 {
                   "Data": {
                     "Number": "994",
-                    "Description": "Australia"
+                    "Name": "Australia"
                   },
                   "Children": []
                 },
                 {
                   "Data": {
                     "Number": "999",
-                    "Description": "Extra-terrestrial worlds"
+                    "Name": "Extra-Terrestrial worlds"
                   },
                   "Children": []
                 }
@@ -1191,647 +1191,647 @@
   "Level1CallNumbers": [
     {
       "Number": "000",
-      "Description": "Computer science, information & general works"
+      "Name": "Computer Science, Information & General Works"
     },
     {
       "Number": "100",
-      "Description": "Philosophy & psychology"
+      "Name": "Philosophy & Psychology"
     },
     {
       "Number": "200",
-      "Description": "Religion"
+      "Name": "Religion"
     },
     {
       "Number": "300",
-      "Description": "Social sciences"
+      "Name": "Social Sciences"
     },
     {
       "Number": "400",
-      "Description": "Language"
+      "Name": "Language"
     },
     {
       "Number": "500",
-      "Description": "Pure science"
+      "Name": "Pure Science"
     },
     {
       "Number": "600",
-      "Description": "Technology"
+      "Name": "Technology"
     },
     {
       "Number": "700",
-      "Description": "Arts & recreation"
+      "Name": "Arts & Recreation"
     },
     {
       "Number": "800",
-      "Description": "Literature"
+      "Name": "Literature"
     },
     {
       "Number": "900",
-      "Description": "History & geography"
+      "Name": "History & Geography"
     }
   ],
   "Level2CallNumbers": [
     {
       "Number": "020",
-      "Description": "Library & information sciences"
+      "Name": "Library & Information Sciences"
     },
     {
       "Number": "050",
-      "Description": "Magazines, journals & serials"
+      "Name": "Magazines, Journals & Serials"
     },
     {
       "Number": "060",
-      "Description": "Associations, organizations & museums"
+      "Name": "Associations, Organizations & Museums"
     },
     {
       "Number": "070",
-      "Description": "News media, journalism & publishing"
+      "Name": "News Media, Journalism & Publishing"
     },
     {
       "Number": "090",
-      "Description": "Manuscripts, rare books"
+      "Name": "Manuscripts, Rare Books"
     },
     {
       "Number": "110",
-      "Description": "Metaphysics"
+      "Name": "Metaphysics"
     },
     {
       "Number": "120",
-      "Description": "Epistemology"
+      "Name": "Epistemology"
     },
     {
       "Number": "130",
-      "Description": "Parapsychology and occultism"
+      "Name": "Parapsychology and Occultism"
     },
     {
       "Number": "150",
-      "Description": "Psychology"
+      "Name": "Psychology"
     },
     {
       "Number": "170",
-      "Description": "Ethics (Moral philosophy)"
+      "Name": "Ethics (Moral Philosophy)"
     },
     {
       "Number": "210",
-      "Description": "Philosophy & theory of religion"
+      "Name": "Philosophy & Theory of Religion"
     },
     {
       "Number": "220",
-      "Description": "The Bible"
+      "Name": "The Bible"
     },
     {
       "Number": "230",
-      "Description": "Christianity"
+      "Name": "Christianity"
     },
     {
       "Number": "260",
-      "Description": "Christian organization, social work & worship"
+      "Name": "Christian Organization, Social Work & Worship"
     },
     {
       "Number": "290",
-      "Description": "Other religions"
+      "Name": "Other Religions"
     },
     {
       "Number": "310",
-      "Description": "Statistics"
+      "Name": "Statistics"
     },
     {
       "Number": "340",
-      "Description": "Law"
+      "Name": "Law"
     },
     {
       "Number": "360",
-      "Description": "Social problems & social services"
+      "Name": "Social Problems & Social Services"
     },
     {
       "Number": "370",
-      "Description": "Education"
+      "Name": "Education"
     },
     {
       "Number": "390",
-      "Description": "Customs, etiquette & folklore"
+      "Name": "Customs, Etiquette & Folklore"
     },
     {
       "Number": "410",
-      "Description": "Linguistics"
+      "Name": "Linguistics"
     },
     {
       "Number": "420",
-      "Description": "English & Old English languages"
+      "Name": "English & Old English Languages"
     },
     {
       "Number": "440",
-      "Description": "French & related languages"
+      "Name": "French & Related Languages"
     },
     {
       "Number": "450",
-      "Description": "Italian, Romanian & related languages"
+      "Name": "Italian, Romanian & Related Languages"
     },
     {
       "Number": "460",
-      "Description": "Spanish, Portuguese, Galician"
+      "Name": "Spanish, Portuguese, Galician"
     },
     {
       "Number": "510",
-      "Description": "Mathematics"
+      "Name": "Mathematics"
     },
     {
       "Number": "520",
-      "Description": "Astronomy"
+      "Name": "Astronomy"
     },
     {
       "Number": "530",
-      "Description": "Physics"
+      "Name": "Physics"
     },
     {
       "Number": "570",
-      "Description": "Biology"
+      "Name": "Biology"
     },
     {
       "Number": "590",
-      "Description": "Animals (Zoology)"
+      "Name": "Animals (Zoology)"
     },
     {
       "Number": "610",
-      "Description": "Medicine & health"
+      "Name": "Medicine & Health"
     },
     {
       "Number": "620",
-      "Description": "Engineering"
+      "Name": "Engineering"
     },
     {
       "Number": "650",
-      "Description": "Management & public relations"
+      "Name": "Management & Public Relations"
     },
     {
       "Number": "660",
-      "Description": "Chemical engineering"
+      "Name": "Chemical Engineering"
     },
     {
       "Number": "690",
-      "Description": "Construction of buildings"
+      "Name": "Construction of Buildings"
     },
     {
       "Number": "710",
-      "Description": "Area planning & landscape architecture"
+      "Name": "Area Planning & Landscape Architecture"
     },
     {
       "Number": "740",
-      "Description": "Graphic arts & decorative arts"
+      "Name": "Graphic Arts & Decorative Arts"
     },
     {
       "Number": "750",
-      "Description": "Painting"
+      "Name": "Painting"
     },
     {
       "Number": "770",
-      "Description": "Photography, computer art, film, video"
+      "Name": "Photography, Computer Art, Film, Video"
     },
     {
       "Number": "780",
-      "Description": "Music"
+      "Name": "Music"
     },
     {
       "Number": "810",
-      "Description": "American literature in English"
+      "Name": "American Literature in English"
     },
     {
       "Number": "820",
-      "Description": "English & Old English literatures"
+      "Name": "English & Old English Literatures"
     },
     {
       "Number": "850",
-      "Description": "Italian, Romanian & related literatures"
+      "Name": "Italian, Romanian & Related Literatures"
     },
     {
       "Number": "880",
-      "Description": "Classical & modern Greek literatures"
+      "Name": "Classical & Modern Greek Literatures"
     },
     {
       "Number": "890",
-      "Description": "Other literatures"
+      "Name": "Other Literatures"
     },
     {
       "Number": "910",
-      "Description": "Geography & travel"
+      "Name": "Geography & Travel"
     },
     {
       "Number": "920",
-      "Description": "Biography & genealogy"
+      "Name": "Biography & Genealogy"
     },
     {
       "Number": "940",
-      "Description": "History of Europe"
+      "Name": "History of Europe"
     },
     {
       "Number": "970",
-      "Description": "History of North America"
+      "Name": "History of North America"
     },
     {
       "Number": "990",
-      "Description": "History of other areas"
+      "Name": "History of Other Areas"
     }
   ],
   "Level3CallNumbers": [
     {
       "Number": "022",
-      "Description": "Administration of physical plant"
+      "Name": "Administration of Physical Plant"
     },
     {
       "Number": "023",
-      "Description": "Personnel management"
+      "Name": "Personnel Management"
     },
     {
       "Number": "051",
-      "Description": "General serial publications in American English"
+      "Name": "General Serial Publications in American English"
     },
     {
       "Number": "058",
-      "Description": "Serials in Scandinavian languages"
+      "Name": "Serials in Scandinavian Languages"
     },
     {
       "Number": "062",
-      "Description": "General organizations in British Isles"
+      "Name": "General Organizations in British Isles"
     },
     {
       "Number": "066",
-      "Description": "General organizations in Spain"
+      "Name": "General Organizations in Spain"
     },
     {
       "Number": "072",
-      "Description": "Journalism and newspapers in British Isles"
+      "Name": "Journalism and Newspapers in British Isles"
     },
     {
       "Number": "075",
-      "Description": "Journalism and newspapers in Italy"
+      "Name": "Journalism and Newspapers in Italy"
     },
     {
       "Number": "094",
-      "Description": "Printed books"
+      "Name": "Printed Books"
     },
     {
       "Number": "095",
-      "Description": "Books notable for bindings"
+      "Name": "Books Notable for Bindings"
     },
     {
       "Number": "115",
-      "Description": "Time"
+      "Name": "Time"
     },
     {
       "Number": "116",
-      "Description": "Change"
+      "Name": "Change"
     },
     {
       "Number": "122",
-      "Description": "Causation"
+      "Name": "Causation"
     },
     {
       "Number": "124",
-      "Description": "Teleology"
+      "Name": "Teleology"
     },
     {
       "Number": "133",
-      "Description": "Specific topics in parapsychology & occultism"
+      "Name": "Specific Topics in Parapsychology & Occultism"
     },
     {
       "Number": "137",
-      "Description": "Divinatory graphology"
+      "Name": "Divinatory Graphology"
     },
     {
       "Number": "156",
-      "Description": "Comparative psychology"
+      "Name": "Comparative Psychology"
     },
     {
       "Number": "158",
-      "Description": "Applied psychology"
+      "Name": "Applied Psychology"
     },
     {
       "Number": "171",
-      "Description": "Ethical systems"
+      "Name": "Ethical Systems"
     },
     {
       "Number": "176",
-      "Description": "Ethics of sex and reproduction"
+      "Name": "Ethics of Sex and Reproduction"
     },
     {
       "Number": "211",
-      "Description": "Concepts of God"
+      "Name": "Concepts of God"
     },
     {
       "Number": "213",
-      "Description": "Creation"
+      "Name": "Creation"
     },
     {
       "Number": "221",
-      "Description": "Old Testament (Tanakh)"
+      "Name": "Old Testament (Tanakh)"
     },
     {
       "Number": "225",
-      "Description": "New Testament"
+      "Name": "New Testament"
     },
     {
       "Number": "231",
-      "Description": "God"
+      "Name": "God"
     },
     {
       "Number": "234",
-      "Description": "Salvation and grace"
+      "Name": "Salvation and Grace"
     },
     {
       "Number": "264",
-      "Description": "Public worship"
+      "Name": "Public Worship"
     },
     {
       "Number": "269",
-      "Description": "Spiritual renewal"
+      "Name": "Spiritual Renewal"
     },
     {
       "Number": "296",
-      "Description": "Judaism"
+      "Name": "Judaism"
     },
     {
       "Number": "297",
-      "Description": "Islam, Babism & Bahai Faith"
+      "Name": "Islam, Babism & Bahai Faith"
     },
     {
       "Number": "315",
-      "Description": "General statistics of Asia"
+      "Name": "General Statistics of Asia"
     },
     {
       "Number": "319",
-      "Description": "General statistics of other areas"
+      "Name": "General Statistics of Other Areas"
     },
     {
       "Number": "341",
-      "Description": "Law of nations"
+      "Name": "Law of Nations"
     },
     {
       "Number": "345",
-      "Description": "Criminal law"
+      "Name": "Criminal Law"
     },
     {
       "Number": "364",
-      "Description": "Criminology"
+      "Name": "Criminology"
     },
     {
       "Number": "368",
-      "Description": "Insurance"
+      "Name": "Insurance"
     },
     {
       "Number": "371",
-      "Description": "Schools and their activities; special education"
+      "Name": "Schools and Their Activities; Special Education"
     },
     {
       "Number": "378",
-      "Description": "Higher education (Tertiary education)"
+      "Name": "Higher Education (Tertiary Education)"
     },
     {
       "Number": "391",
-      "Description": "Costume and personal appearance"
+      "Name": "Costume and Personal Appearance"
     },
     {
       "Number": "393",
-      "Description": "Death customs"
+      "Name": "Death Customs"
     },
     {
       "Number": "412",
-      "Description": "Etymology"
+      "Name": "Etymology"
     },
     {
       "Number": "415",
-      "Description": "Grammar"
+      "Name": "Grammar"
     },
     {
       "Number": "422",
-      "Description": "Etymology of standard English"
+      "Name": "Etymology of Standard English"
     },
     {
       "Number": "423",
-      "Description": "Dictionaries of standard English"
+      "Name": "Dictionaries of Standard English"
     },
     {
       "Number": "445",
-      "Description": "Grammar of standard French"
+      "Name": "Grammar of Standard French"
     },
     {
       "Number": "447",
-      "Description": "French language variations"
+      "Name": "French Language Variations"
     },
     {
       "Number": "451",
-      "Description": "Writing system, phonology, phonetics"
+      "Name": "Writing System, Phonology, Phonetics"
     },
     {
       "Number": "458",
-      "Description": "Standard Italian usage"
+      "Name": "Standard Italian Usage"
     },
     {
       "Number": "463",
-      "Description": "Dictionaries of standard Spanish"
+      "Name": "Dictionaries of Standard Spanish"
     },
     {
       "Number": "467",
-      "Description": "Spanish language variations"
+      "Name": "Spanish Language Variations"
     },
     {
       "Number": "511",
-      "Description": "General principles of mathematics"
+      "Name": "General Principles of Mathematics"
     },
     {
       "Number": "516",
-      "Description": "Geometry"
+      "Name": "Geometry"
     },
     {
       "Number": "522",
-      "Description": "Techniques, equipment & materials"
+      "Name": "Techniques, Equipment & Materials"
     },
     {
       "Number": "523",
-      "Description": "Specific celestial bodies and phenomena"
+      "Name": "Specific Celestial Bodies and Phenomena"
     },
     {
       "Number": "531",
-      "Description": "Classical mechanics"
+      "Name": "Classical Mechanics"
     },
     {
       "Number": "535",
-      "Description": "Light and related radiation"
+      "Name": "Light and Related Radiation"
     },
     {
       "Number": "571",
-      "Description": "Physiology & related subjects"
+      "Name": "Physiology & Related Subjects"
     },
     {
       "Number": "576",
-      "Description": "Genetics and evolution"
+      "Name": "Genetics and Evolution"
     },
     {
       "Number": "592",
-      "Description": "Invertebrates"
+      "Name": "Invertebrates"
     },
     {
       "Number": "595",
-      "Description": "Arthropoda"
+      "Name": "Arthropoda"
     },
     {
       "Number": "612",
-      "Description": "Human physiology"
+      "Name": "Human Physiology"
     },
     {
       "Number": "614",
-      "Description": "Forensic medicine; incidence of disease"
+      "Name": "Forensic Medicine; Incidence of Disease"
     },
     {
       "Number": "621",
-      "Description": "Applied physics"
+      "Name": "Applied Physics"
     },
     {
       "Number": "624",
-      "Description": "Civil engineering"
+      "Name": "Civil Engineering"
     },
     {
       "Number": "651",
-      "Description": "Office services"
+      "Name": "Office Services"
     },
     {
       "Number": "658",
-      "Description": "General management"
+      "Name": "General Management"
     },
     {
       "Number": "662",
-      "Description": "Explosives, fuels & related products"
+      "Name": "Explosives, Fuels & Related Products"
     },
     {
       "Number": "664",
-      "Description": "Food technology"
+      "Name": "Food Technology"
     },
     {
       "Number": "691",
-      "Description": "Building materials"
+      "Name": "Building Materials"
     },
     {
       "Number": "694",
-      "Description": "Wood construction"
+      "Name": "Wood Construction"
     },
     {
       "Number": "711",
-      "Description": "Area planning (Civic art)"
+      "Name": "Area Planning (Civic Art)"
     },
     {
       "Number": "714",
-      "Description": "Water features in landscape architecture"
+      "Name": "Water Features in Landscape Architecture"
     },
     {
       "Number": "741",
-      "Description": "Drawing and drawings"
+      "Name": "Drawing and Drawings"
     },
     {
       "Number": "748",
-      "Description": "Glass"
+      "Name": "Glass"
     },
     {
       "Number": "752",
-      "Description": "Colour"
+      "Name": "Colour"
     },
     {
       "Number": "757",
-      "Description": "Human figures"
+      "Name": "Human Figures"
     },
     {
       "Number": "772",
-      "Description": "Metallic salt processes"
+      "Name": "Metallic Salt Processes"
     },
     {
       "Number": "776",
-      "Description": "Computer art (Digital art)"
+      "Name": "Computer Art (Digital Art)"
     },
     {
       "Number": "782",
-      "Description": "Vocal music"
+      "Name": "Vocal Music"
     },
     {
       "Number": "788",
-      "Description": "Wind instruments (Aerophones)"
+      "Name": "Wind Instruments (Aerophones)"
     },
     {
       "Number": "811",
-      "Description": "American poetry in English"
+      "Name": "American Poetry in English"
     },
     {
       "Number": "813",
-      "Description": "American fiction in English"
+      "Name": "American Fiction in English"
     },
     {
       "Number": "821",
-      "Description": "English poetry"
+      "Name": "English Poetry"
     },
     {
       "Number": "829",
-      "Description": "Old English (Anglo-Saxon) literature"
+      "Name": "Old English (Anglo-Saxon) Literature"
     },
     {
       "Number": "852",
-      "Description": "Italian drama"
+      "Name": "Italian Drama"
     },
     {
       "Number": "856",
-      "Description": "Italian letters"
+      "Name": "Italian Letters"
     },
     {
       "Number": "884",
-      "Description": "Classical Greek lyric poetry"
+      "Name": "Classical Greek Lyric Poetry"
     },
     {
       "Number": "886",
-      "Description": "Classical Greek letters"
+      "Name": "Classical Greek Letters"
     },
     {
       "Number": "892",
-      "Description": "Afro-Asiatic literatures"
+      "Name": "Afro-Asiatic Literatures"
     },
     {
       "Number": "896",
-      "Description": "African literatures"
+      "Name": "African Literatures"
     },
     {
       "Number": "911",
-      "Description": "Historical geography"
+      "Name": "Historical Geography"
     },
     {
       "Number": "912",
-      "Description": "Maps and plans of surface of earth"
+      "Name": "Maps and Plans of Surface of Earth"
     },
     {
       "Number": "929",
-      "Description": "Genealogy, names & insignia"
+      "Name": "Genealogy, Names & Insignia"
     },
     {
       "Number": "942",
-      "Description": "England and Wales"
+      "Name": "England And Wales"
     },
     {
       "Number": "943",
-      "Description": "Germany & central Europe"
+      "Name": "Germany & Central Europe"
     },
     {
       "Number": "944",
-      "Description": "France and Monaco"
+      "Name": "France And Monaco"
     },
     {
       "Number": "972",
-      "Description": "Mexico, Central America, West Indies"
+      "Name": "Mexico, Central America, West Indies"
     },
     {
       "Number": "978",
-      "Description": "Western United States"
+      "Name": "Western United States"
     },
     {
       "Number": "994",
-      "Description": "Australia"
+      "Name": "Australia"
     },
     {
       "Number": "999",
-      "Description": "Extra-terrestrial worlds"
+      "Name": "Extra-Terrestrial worlds"
     }
   ]
 }

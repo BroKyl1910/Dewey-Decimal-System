@@ -18,9 +18,9 @@ namespace DeweyDecimalSystem.Models
 
         public void Insert(T parent, T data)
         {
-            Console.WriteLine("Insert "+data+" on "+parent);
+            Console.WriteLine("Insert " + data + " on " + parent);
             Node<T> parentNode = FindNodeBreadthFirst(parent);
-            if(parentNode == null) throw new ArgumentException(parent + " could not be found in tree");
+            if (parentNode == null) throw new ArgumentException(parent + " could not be found in tree");
             parentNode.Children.Add(new Node<T>() { Data = data, Parent = parentNode });
             Count++;
         }
@@ -37,20 +37,34 @@ namespace DeweyDecimalSystem.Models
         {
             var queue = new Queue<Node<T>>();
             queue.Enqueue(Root);
-            while(queue.Count > 0)
+            while (queue.Count > 0)
             {
                 var node = queue.Dequeue();
                 if (node.Data != null && node.Data.Equals(Query))
                 {
                     return node;
                 }
-                foreach(var child in node.Children)
+                foreach (var child in node.Children)
                 {
                     queue.Enqueue(child);
                 }
             }
 
             return null;
+        }
+
+        public void RecursivelySetParents()
+        {
+            PopulateParents(Root);
+        }
+
+        public void PopulateParents(Node<T> currentNode)
+        {
+            foreach (var child in currentNode.Children)
+            {
+                child.Parent = currentNode;
+                PopulateParents(child);
+            }
         }
     }
 }

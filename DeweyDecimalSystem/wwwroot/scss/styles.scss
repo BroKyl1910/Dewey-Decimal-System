@@ -661,11 +661,6 @@ body {
             /*width: 50%;*/
             margin: 10px auto;
 
-            &:hover {
-                background: darken($primary-color-light, 5);
-                cursor: pointer;
-            }
-
             .answer-text {
                 color: white;
                 font-size: 1.4em;
@@ -683,6 +678,14 @@ body {
         .answer-list-item.incorrect {
             background: #ed5a70;
             box-shadow: 2px 2px 2px darken(#ed5a70, 10);
+        }
+
+        .answer-list-item.active {
+
+            &:hover {
+                background: darken($primary-color-light, 5);
+                cursor: pointer;
+            }
         }
     }
 
@@ -739,9 +742,10 @@ body {
                 margin-top: 10px;
             }
 
-            .error-wrapper{
+            .error-wrapper {
                 margin-top: 10px;
-                .error-text{
+
+                .error-text {
                     color: red;
                 }
             }

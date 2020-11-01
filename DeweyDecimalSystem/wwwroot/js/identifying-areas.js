@@ -3,7 +3,7 @@ var lastName;
 var enteredName;
 var timeSinceStart;
 var timerInterval;
-var roundNumber = 1;
+var levelNumber = 1;
 
 $(window).on('pageshow', function () {
     initialDataCall();
@@ -14,7 +14,7 @@ function initialDataCall() {
     $('.endgame-controls-wrapper').hide();
     $.ajax({
         method: "GET",
-        url: "/IdentifyingAreas/Initialise?roundNumber=" + roundNumber,
+        url: "/IdentifyingAreas/Initialise?roundNumber=" + levelNumber,
         success: (jsonString) => {
             var parsedData = JSON.parse(jsonString);
             lastName = parsedData.lastName;
@@ -24,10 +24,10 @@ function initialDataCall() {
             var shuffledValues = parsedData.values;
 
             buildQuestionsAndAnswers(shuffledKeys, shuffledValues);
-            if (roundNumber == 1) showForm();
+            if (levelNumber == 1) showForm();
 
             var instructions;
-            if (roundNumber % 2 == 1) {
+            if (levelNumber % 2 == 1) {
                 instructions = "Match the call number on the left to the category on the right. Complete the round faster to rank higher"
             } else {
                 instructions = "Match the category on the left to the call number on the right. Complete the round faster to rank higher"
@@ -75,7 +75,7 @@ function endGame() {
 }
 
 $('.endgame-control.next').on('click', () => {
-    roundNumber++;
+    levelNumber++;
     $('.timer-text').fadeOut(200, () => {
         $('.play-button').fadeIn(200, () => { });
     });
