@@ -33,6 +33,9 @@ function initialDataCall() {
                 instructions = "Match the category on the left to the call number on the right. Complete the round faster to rank higher"
             }
             $('.instructions').html(instructions);
+
+            $('.lazy-load-wrapper').slideDown();
+
         }
     });
 }

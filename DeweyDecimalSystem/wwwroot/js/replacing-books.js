@@ -22,6 +22,8 @@ function initialDataCall() {
             console.log("Correct Order");
             console.log(this.correctOrder);
             buildBooks(bookViewModels);
+            $('.lazy-load-wrapper').slideDown();
+
         }
     });
 }

@@ -32,13 +32,16 @@ function initialDataCall() {
             level3Answers = parsedData.level3Answers;
             correctAnswers = parsedData.correctAnswers;
 
+
             if (enteredName == '') {
                 showForm();
             }
 
             levelNumber = 1;
             points = 0;
+
             buildGameUI();
+            $('.lazy-load-wrapper').slideDown();
         }
     });
 }
