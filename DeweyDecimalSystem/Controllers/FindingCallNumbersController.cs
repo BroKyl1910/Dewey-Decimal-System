@@ -40,6 +40,7 @@ namespace DeweyDecimalSystem.Controllers
             level1CallNumbers = level1CallNumbers.OrderBy(x => random.Next()).ToList();
             List<CallNumber> level1Answers = new List<CallNumber>();
             level1Answers.Add(level1CallNumberNode.Data);
+            // Ensure that there are no duplicates in list
             while(level1Answers.Count < 4)
             {
                 var level1Number = level1CallNumbers[i];
@@ -54,6 +55,8 @@ namespace DeweyDecimalSystem.Controllers
             level2CallNumbers = level2CallNumbers.OrderBy(x => random.Next()).ToList();
             List<CallNumber> level2Answers = new List<CallNumber>();
             level2Answers.Add(level2CallNumberNode.Data);
+            // Ensure that there are no duplicates in list and that the level 2 call numbers are within the bounds of level 1
+            // If level 1 is 200, level 2 can't be outside of 200-300
             while (level2Answers.Count < 4)
             {
                 var level2Number = level2CallNumbers[i];
@@ -69,6 +72,7 @@ namespace DeweyDecimalSystem.Controllers
             List<CallNumber> level3Answers = new List<CallNumber>();
             level3Answers.Add(level3CallNumberNode.Data);
             string callNumber = level3CallNumberNode.Data.Number.Substring(0, 2);
+            // Randomly generate call numbers according to what the level 3 actual answer is
             while (level3Answers.Count < 4)
             {
                 int lastDigit = random.Next(0, 10);
